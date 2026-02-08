@@ -1,0 +1,84 @@
+{
+  "app": {
+    "name": "WiFi Speed Test",
+    "version": "1.0.0",
+    "author": "WiFi Test Team"
+  },
+  "network": {
+    "test_servers": [
+      "http://speedtest.tele2.net/1MB.zip",
+      "http://speedtest.ftp.otenet.gr/files/test1Mb.db",
+      "http://ipv4.download.thinkbroadband.com/5MB.zip"
+    ],
+    "upload_server": "http://httpbin.org/post",
+    "ping_server": "8.8.8.8",
+    "timeout": 30,
+    "retry_count": 3
+  },
+  "wifi": {
+    "scan_interval": 5,
+    "bands": [
+      "2.4GHz",
+      "5GHz"
+    ],
+    "channels_2.4ghz": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "channels_5ghz": [
+      36,
+      40,
+      44,
+      48,
+      52,
+      56,
+      60,
+      64,
+      100,
+      104,
+      108,
+      112,
+      116,
+      120,
+      124,
+      128,
+      132,
+      136,
+      140,
+      144,
+      149,
+      153,
+      157,
+      161,
+      165
+    ],
+    "test_count": 1000
+  },
+  "ui": {
+    "refresh_interval": 1000,
+    "chart_update_interval": 2000,
+    "theme": "default"
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "wifi_test.log",
+    "max_size": 10485760,
+    "backup_count": 5
+  },
+  "cache": {
+    "speed_test_cache_size": 10,
+    "channel_cache_ttl": 300
+  }
+}

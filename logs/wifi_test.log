@@ -1,0 +1,1402 @@
+2026-02-08 13:36:00 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 13:37:06 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 13:37:08 - WiFiTest - INFO - Speed test panel initialized
+2026-02-08 13:37:08 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 13:37:08 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 13:37:08 - WiFiTest - INFO - Main window initialized
+2026-02-08 13:37:09 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 13:38:05 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 13:38:07 - WiFiTest - INFO - Speed test panel initialized
+2026-02-08 13:38:07 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 13:38:07 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 13:38:07 - WiFiTest - INFO - Main window initialized
+2026-02-08 13:38:07 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 13:47:49 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 13:47:51 - WiFiTest - INFO - Speed test panel initialized
+2026-02-08 13:47:51 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 13:47:51 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 13:47:51 - WiFiTest - INFO - Main window initialized
+2026-02-08 13:47:51 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 13:47:53 - WiFiTest - ERROR - Exception occurred: TypeError: SpeedTestPanel._start_test() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "H:\d\kotlin\wifiTest\src\utils\exception_handler.py", line 90, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+TypeError: SpeedTestPanel._start_test() takes 1 positional argument but 2 were given
+2026-02-08 13:48:13 - WiFiTest - INFO - Application closed by user
+2026-02-08 13:50:56 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 13:50:57 - WiFiTest - INFO - Speed test panel initialized
+2026-02-08 13:50:57 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 13:50:57 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 13:50:57 - WiFiTest - INFO - Main window initialized
+2026-02-08 13:50:57 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 13:51:33 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 13:51:35 - WiFiTest - INFO - Speed test panel initialized
+2026-02-08 13:51:35 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 13:51:35 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 13:51:35 - WiFiTest - INFO - Main window initialized
+2026-02-08 13:51:35 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 13:51:36 - WiFiTest - INFO - Speed test started
+2026-02-08 13:53:26 - WiFiTest - INFO - Speed test completed: 下载: 0.08 Mbps, 上传: 0.16 Mbps, 延迟: 55.00 ms
+2026-02-08 13:53:43 - WiFiTest - INFO - Channel scan started for 2.4GHz
+2026-02-08 13:53:43 - WiFiTest - INFO - Channel analysis completed for 2.4GHz: 14 channels
+2026-02-08 13:54:06 - WiFiTest - INFO - Recommendation analysis started
+2026-02-08 13:54:06 - WiFiTest - INFO - Recommendation completed: 推荐信道: 6 (2.4GHz) - 质量评分: 100.0
+2026-02-08 13:54:36 - WiFiTest - INFO - Application closed by user
+2026-02-08 13:57:37 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 13:57:38 - WiFiTest - INFO - Speed test panel initialized
+2026-02-08 13:57:38 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 13:57:38 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 13:57:38 - WiFiTest - INFO - Main window initialized
+2026-02-08 13:57:38 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 14:00:00 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 14:00:01 - WiFiTest - INFO - Speed test panel initialized
+2026-02-08 14:00:01 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 14:00:01 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 14:00:01 - WiFiTest - INFO - Main window initialized
+2026-02-08 14:00:01 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 14:00:03 - WiFiTest - INFO - Speed test started
+2026-02-08 14:00:20 - WiFiTest - WARNING - Download test failed for http://ipv4.download.thinkbroadband.com/20MB.zip: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-02-08 14:01:06 - WiFiTest - INFO - Channel scan started for 2.4GHz
+2026-02-08 14:01:06 - WiFiTest - INFO - Channel analysis completed for 2.4GHz: 14 channels
+2026-02-08 14:01:10 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 14:01:10 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 14:01:11 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 14:01:11 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 14:01:28 - WiFiTest - INFO - Recommendation analysis started
+2026-02-08 14:01:28 - WiFiTest - INFO - Recommendation completed: 推荐信道: 104 (5GHz) - 质量评分: 100.0
+2026-02-08 14:01:38 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 14:01:39 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 14:01:48 - WiFiTest - INFO - Recommendation analysis started
+2026-02-08 14:01:48 - WiFiTest - ERROR - Uncaught exception: AttributeError: 'NoneType' object has no attribute 'deleteLater'
+Traceback (most recent call last):
+  File "H:\d\kotlin\wifiTest\src\ui\recommend_panel.py", line 314, in _on_recommendation_completed
+    self._update_recommendation_display(recommendation)
+  File "H:\d\kotlin\wifiTest\src\ui\recommend_panel.py", line 326, in _update_recommendation_display
+    self.placeholder_label.deleteLater()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'deleteLater'
+2026-02-08 14:01:48 - WiFiTest - ERROR - Exception occurred: AttributeError: 'NoneType' object has no attribute 'deleteLater'
+NoneType: None
+2026-02-08 14:02:12 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 14:02:12 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 14:02:34 - WiFiTest - INFO - Application closed by user
+2026-02-08 14:04:44 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 14:04:45 - WiFiTest - INFO - Speed test panel initialized
+2026-02-08 14:04:45 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 14:04:45 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 14:04:45 - WiFiTest - INFO - Main window initialized
+2026-02-08 14:04:46 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 14:06:45 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 14:06:47 - WiFiTest - INFO - Speed test panel initialized
+2026-02-08 14:06:47 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 14:06:47 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 14:06:47 - WiFiTest - INFO - Main window initialized
+2026-02-08 14:06:47 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 14:06:49 - WiFiTest - WARNING - Warning: 错误 - 没有可用的信道数据，请先扫描信道
+2026-02-08 14:06:53 - WiFiTest - INFO - Channel scan started for 2.4GHz
+2026-02-08 14:06:54 - WiFiTest - INFO - Channel analysis completed for 2.4GHz: 14 channels
+2026-02-08 14:06:55 - WiFiTest - INFO - Recommendation analysis started
+2026-02-08 14:06:55 - WiFiTest - INFO - Recommendation completed: 推荐信道: 5 (2.4GHz) - 质量评分: 96.6
+2026-02-08 14:06:59 - WiFiTest - INFO - Channel scan started for 2.4GHz
+2026-02-08 14:06:59 - WiFiTest - INFO - Channel analysis completed for 2.4GHz: 14 channels
+2026-02-08 14:07:00 - WiFiTest - INFO - Recommendation analysis started
+2026-02-08 14:07:00 - WiFiTest - INFO - Recommendation completed: 推荐信道: 2 (2.4GHz) - 质量评分: 98.3
+2026-02-08 14:07:02 - WiFiTest - INFO - Recommendation analysis started
+2026-02-08 14:07:02 - WiFiTest - INFO - Recommendation completed: 推荐信道: 2 (2.4GHz) - 质量评分: 98.3
+2026-02-08 14:07:04 - WiFiTest - INFO - Channel scan started for 2.4GHz
+2026-02-08 14:07:04 - WiFiTest - INFO - Channel analysis completed for 2.4GHz: 14 channels
+2026-02-08 14:07:06 - WiFiTest - INFO - Channel scan started for 2.4GHz
+2026-02-08 14:07:06 - WiFiTest - INFO - Channel analysis completed for 2.4GHz: 14 channels
+2026-02-08 14:07:08 - WiFiTest - INFO - Recommendation analysis started
+2026-02-08 14:07:08 - WiFiTest - INFO - Recommendation completed: 推荐信道: 14 (2.4GHz) - 质量评分: 100.0
+2026-02-08 14:07:09 - WiFiTest - INFO - Recommendation analysis started
+2026-02-08 14:07:09 - WiFiTest - INFO - Recommendation completed: 推荐信道: 14 (2.4GHz) - 质量评分: 100.0
+2026-02-08 14:07:27 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 14:07:27 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 14:07:29 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 14:07:30 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 14:07:33 - WiFiTest - INFO - Recommendation analysis started
+2026-02-08 14:07:33 - WiFiTest - INFO - Recommendation completed: 推荐信道: 132 (5GHz) - 质量评分: 100.0
+2026-02-08 14:07:49 - WiFiTest - INFO - Speed test started
+2026-02-08 14:08:06 - WiFiTest - WARNING - Download test failed for http://ipv4.download.thinkbroadband.com/20MB.zip: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-02-08 14:14:02 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 14:14:03 - WiFiTest - INFO - Speed test panel initialized
+2026-02-08 14:14:03 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 14:14:03 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 14:14:03 - WiFiTest - INFO - Main window initialized
+2026-02-08 14:14:03 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 14:14:32 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 14:14:33 - WiFiTest - INFO - Speed test panel initialized
+2026-02-08 14:14:33 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 14:14:33 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 14:14:33 - WiFiTest - INFO - Main window initialized
+2026-02-08 14:14:34 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 14:14:35 - WiFiTest - INFO - Speed test started
+2026-02-08 14:14:38 - WiFiTest - DEBUG - Latency test: no match found in ping output
+2026-02-08 14:14:41 - WiFiTest - DEBUG - Latency test: no match found in ping output
+2026-02-08 14:14:44 - WiFiTest - DEBUG - Latency test: no match found in ping output
+2026-02-08 14:14:47 - WiFiTest - DEBUG - Latency test: no match found in ping output
+2026-02-08 14:14:50 - WiFiTest - DEBUG - Latency test: no match found in ping output
+2026-02-08 14:14:51 - WiFiTest - DEBUG - Download test failed on ThinkBroadband (20MB): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-02-08 14:18:09 - WiFiTest - INFO - Application closed by user
+2026-02-08 14:21:24 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 14:21:25 - WiFiTest - INFO - Speed test panel initialized
+2026-02-08 14:21:25 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 14:21:25 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 14:21:25 - WiFiTest - INFO - Main window initialized
+2026-02-08 14:21:26 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 14:23:41 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 14:23:42 - WiFiTest - INFO - Speed test panel initialized
+2026-02-08 14:23:42 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 14:23:42 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 14:23:42 - WiFiTest - INFO - Main window initialized
+2026-02-08 14:23:42 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 14:23:43 - WiFiTest - INFO - Speed test started
+2026-02-08 14:23:44 - WiFiTest - DEBUG - Latency test: no match found in ping output
+2026-02-08 14:23:46 - WiFiTest - DEBUG - Latency test: no match found in ping output
+2026-02-08 14:23:47 - WiFiTest - DEBUG - Latency test: no match found in ping output
+2026-02-08 14:25:24 - WiFiTest - DEBUG - Download test successful on Tele2 (1MB): 0.09 Mbps
+2026-02-08 14:25:26 - WiFiTest - DEBUG - Download test failed on ThinkBroadband (5MB): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-02-08 14:25:26 - WiFiTest - INFO - Download test completed using Tele2 (1MB): 0.09 Mbps
+2026-02-08 14:25:56 - WiFiTest - INFO - Application closed by user
+2026-02-08 14:27:56 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 14:27:58 - WiFiTest - INFO - Speed test panel initialized
+2026-02-08 14:27:58 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 14:27:58 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 14:27:58 - WiFiTest - INFO - Main window initialized
+2026-02-08 14:27:58 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 14:29:05 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 14:29:06 - WiFiTest - INFO - Speed test panel initialized
+2026-02-08 14:29:06 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 14:29:06 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 14:29:06 - WiFiTest - INFO - Main window initialized
+2026-02-08 14:29:06 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 14:29:07 - WiFiTest - INFO - Speed test started
+2026-02-08 14:29:09 - WiFiTest - DEBUG - Latency test: no match found in ping output
+2026-02-08 14:29:10 - WiFiTest - DEBUG - Latency test: no match found in ping output
+2026-02-08 14:29:11 - WiFiTest - DEBUG - Latency test: no match found in ping output
+2026-02-08 14:31:34 - WiFiTest - INFO - Application closed by user
+2026-02-08 14:33:07 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 14:33:09 - WiFiTest - INFO - Speed test panel initialized
+2026-02-08 14:33:09 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 14:33:09 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 14:33:09 - WiFiTest - INFO - Main window initialized
+2026-02-08 14:33:09 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 14:34:43 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 14:34:44 - WiFiTest - INFO - Speed test panel initialized
+2026-02-08 14:34:44 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 14:34:44 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 14:34:44 - WiFiTest - INFO - Main window initialized
+2026-02-08 14:34:45 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 14:34:46 - WiFiTest - INFO - Speed test started
+2026-02-08 14:34:47 - WiFiTest - DEBUG - Latency test: no match found in ping output
+2026-02-08 14:34:48 - WiFiTest - DEBUG - Latency test: no match found in ping output
+2026-02-08 14:34:50 - WiFiTest - DEBUG - Latency test: no match found in ping output
+2026-02-08 14:36:25 - WiFiTest - DEBUG - Download test timeout on Tele2 (1MB)
+2026-02-08 14:36:25 - WiFiTest - DEBUG - Download test successful on Tele2 (1MB): 0.09 Mbps (downloaded 1.0MB in 95.0s)
+2026-02-08 14:37:49 - WiFiTest - INFO - Application closed by user
+2026-02-08 14:40:48 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 14:40:49 - WiFiTest - INFO - Speed test panel initialized
+2026-02-08 14:40:49 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 14:40:49 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 14:40:49 - WiFiTest - INFO - Main window initialized
+2026-02-08 14:40:49 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 14:41:54 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 14:41:56 - WiFiTest - INFO - Speed test panel initialized
+2026-02-08 14:41:56 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 14:41:56 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 14:41:56 - WiFiTest - INFO - Main window initialized
+2026-02-08 14:41:56 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 14:42:55 - WiFiTest - INFO - Speed test started
+2026-02-08 14:42:56 - WiFiTest - DEBUG - Latency test: no match found in ping output
+2026-02-08 14:42:57 - WiFiTest - DEBUG - Latency test: no match found in ping output
+2026-02-08 14:42:59 - WiFiTest - DEBUG - Latency test: no match found in ping output
+2026-02-08 14:43:06 - WiFiTest - DEBUG - Download test timeout on Tele2 (1MB)
+2026-02-08 14:43:12 - WiFiTest - WARNING - All download test servers failed or returned insufficient data
+2026-02-08 14:43:18 - WiFiTest - DEBUG - Download test timeout on Tele2 (1MB)
+2026-02-08 14:43:20 - WiFiTest - WARNING - All download test servers failed or returned insufficient data
+2026-02-08 14:43:26 - WiFiTest - DEBUG - Download test timeout on Tele2 (1MB)
+2026-02-08 14:43:27 - WiFiTest - WARNING - All download test servers failed or returned insufficient data
+2026-02-08 14:43:29 - WiFiTest - DEBUG - Upload test successful on httpbin.org: 0.21 Mbps (uploaded 64KB in 2.5s)
+2026-02-08 14:43:31 - WiFiTest - DEBUG - Upload test successful on Postman Echo: 0.41 Mbps (uploaded 64KB in 1.3s)
+2026-02-08 14:43:31 - WiFiTest - INFO - Upload test completed using Postman Echo: 0.41 Mbps
+2026-02-08 14:43:34 - WiFiTest - DEBUG - Upload test successful on httpbin.org: 0.19 Mbps (uploaded 64KB in 2.8s)
+2026-02-08 14:43:35 - WiFiTest - DEBUG - Upload test successful on Postman Echo: 0.43 Mbps (uploaded 64KB in 1.2s)
+2026-02-08 14:43:35 - WiFiTest - INFO - Upload test completed using Postman Echo: 0.43 Mbps
+2026-02-08 14:43:38 - WiFiTest - DEBUG - Upload test successful on httpbin.org: 0.14 Mbps (uploaded 64KB in 3.6s)
+2026-02-08 14:43:40 - WiFiTest - DEBUG - Upload test successful on Postman Echo: 0.42 Mbps (uploaded 64KB in 1.3s)
+2026-02-08 14:43:40 - WiFiTest - INFO - Upload test completed using Postman Echo: 0.42 Mbps
+2026-02-08 14:43:40 - WiFiTest - INFO - Speed test completed: 下载: 0.00 Mbps, 上传: 0.42 Mbps, 延迟: 0.00 ms
+2026-02-08 14:44:00 - WiFiTest - INFO - Application closed by user
+2026-02-08 14:46:23 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 14:46:24 - WiFiTest - INFO - Speed test panel initialized
+2026-02-08 14:46:24 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 14:46:24 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 14:46:24 - WiFiTest - INFO - Main window initialized
+2026-02-08 14:46:24 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 14:49:44 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 14:49:46 - WiFiTest - INFO - Speed test panel initialized
+2026-02-08 14:49:46 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 14:49:46 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 14:49:46 - WiFiTest - INFO - Main window initialized
+2026-02-08 14:49:46 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 14:49:47 - WiFiTest - INFO - Speed test started
+2026-02-08 14:49:50 - WiFiTest - DEBUG - Latency test: no match found in ping output: 
+���� Ping 8.8.8.8 ���� 32 �ֽڵ�����:
+���� 8.8.8.8 �Ļظ�: �ֽ�=32 ʱ��=54ms TTL=111
+���� 8.8.8.8 �Ļظ�: �ֽ�=32 ʱ��=54ms TTL=111
+���� 8.8.8.8 �Ļظ�: �ֽ�=32 ʱ��=53ms TTL=111
+���� 8.8.8.8 �Ļظ�: �ֽ�=32 ʱ��=53ms TTL=111
+
+8.8.8.8 �� Ping ͳ����Ϣ:
+    ���ݰ�: �ѷ��� = 4���ѽ��� = 4����ʧ = 0 (0% ��ʧ)��
+�����г̵Ĺ���ʱ��(�Ժ���Ϊ��λ):
+    ��� = 53ms��� = 54ms��ƽ�� = 53ms
+
+2026-02-08 14:49:53 - WiFiTest - DEBUG - Latency test: no match found in ping output: 
+���� Ping 8.8.8.8 ���� 32 �ֽڵ�����:
+���� 8.8.8.8 �Ļظ�: �ֽ�=32 ʱ��=53ms TTL=111
+���� 8.8.8.8 �Ļظ�: �ֽ�=32 ʱ��=54ms TTL=111
+���� 8.8.8.8 �Ļظ�: �ֽ�=32 ʱ��=54ms TTL=111
+���� 8.8.8.8 �Ļظ�: �ֽ�=32 ʱ��=54ms TTL=111
+
+8.8.8.8 �� Ping ͳ����Ϣ:
+    ���ݰ�: �ѷ��� = 4���ѽ��� = 4����ʧ = 0 (0% ��ʧ)��
+�����г̵Ĺ���ʱ��(�Ժ���Ϊ��λ):
+    ��� = 53ms��� = 54ms��ƽ�� = 53ms
+
+2026-02-08 14:49:56 - WiFiTest - DEBUG - Latency test: no match found in ping output: 
+���� Ping 8.8.8.8 ���� 32 �ֽڵ�����:
+���� 8.8.8.8 �Ļظ�: �ֽ�=32 ʱ��=54ms TTL=111
+���� 8.8.8.8 �Ļظ�: �ֽ�=32 ʱ��=55ms TTL=111
+���� 8.8.8.8 �Ļظ�: �ֽ�=32 ʱ��=54ms TTL=111
+���� 8.8.8.8 �Ļظ�: �ֽ�=32 ʱ��=53ms TTL=111
+
+8.8.8.8 �� Ping ͳ����Ϣ:
+    ���ݰ�: �ѷ��� = 4���ѽ��� = 4����ʧ = 0 (0% ��ʧ)��
+�����г̵Ĺ���ʱ��(�Ժ���Ϊ��λ):
+    ��� = 53ms��� = 55ms��ƽ�� = 54ms
+
+2026-02-08 14:50:09 - WiFiTest - DEBUG - Download test timeout on Tele2 (10MB)
+2026-02-08 14:50:09 - WiFiTest - DEBUG - Download test insufficient data: status=200, time=12.3s, downloaded=0.2MB
+2026-02-08 14:50:10 - WiFiTest - DEBUG - Download test insufficient data: status=403, time=0.6s, downloaded=0.0MB
+2026-02-08 14:50:10 - WiFiTest - WARNING - All download test servers failed or returned insufficient data
+2026-02-08 14:50:23 - WiFiTest - DEBUG - Download test timeout on Tele2 (10MB)
+2026-02-08 14:50:23 - WiFiTest - DEBUG - Download test insufficient data: status=200, time=13.5s, downloaded=0.1MB
+2026-02-08 14:50:27 - WiFiTest - DEBUG - Download test insufficient data: status=403, time=3.7s, downloaded=0.0MB
+2026-02-08 14:50:27 - WiFiTest - WARNING - All download test servers failed or returned insufficient data
+2026-02-08 14:50:39 - WiFiTest - DEBUG - Download test timeout on Tele2 (10MB)
+2026-02-08 14:50:39 - WiFiTest - DEBUG - Download test insufficient data: status=200, time=12.2s, downloaded=0.1MB
+2026-02-08 14:50:58 - WiFiTest - DEBUG - Download test timeout on OTEnet (10MB)
+2026-02-08 14:50:58 - WiFiTest - DEBUG - Download test insufficient data: status=403, time=18.9s, downloaded=0.0MB
+2026-02-08 14:50:58 - WiFiTest - WARNING - All download test servers failed or returned insufficient data
+2026-02-08 14:51:08 - WiFiTest - INFO - Upload test successful on httpbin.org: 0.21 Mbps (uploaded 256KB in 9.8s)
+2026-02-08 14:51:11 - WiFiTest - DEBUG - Upload test insufficient data: status=500, time=2.9s
+2026-02-08 14:51:11 - WiFiTest - INFO - Upload test completed using httpbin.org: 0.21 Mbps
+2026-02-08 14:51:29 - WiFiTest - INFO - Upload test successful on httpbin.org: 0.11 Mbps (uploaded 256KB in 18.5s)
+2026-02-08 14:51:31 - WiFiTest - DEBUG - Upload test insufficient data: status=500, time=1.8s
+2026-02-08 14:51:31 - WiFiTest - INFO - Upload test completed using httpbin.org: 0.11 Mbps
+2026-02-08 14:51:49 - WiFiTest - INFO - Upload test successful on httpbin.org: 0.11 Mbps (uploaded 256KB in 18.5s)
+2026-02-08 14:51:51 - WiFiTest - DEBUG - Upload test insufficient data: status=500, time=1.7s
+2026-02-08 14:51:51 - WiFiTest - INFO - Upload test completed using httpbin.org: 0.11 Mbps
+2026-02-08 14:51:51 - WiFiTest - INFO - Speed test completed: 下载: 0.00 Mbps, 上传: 0.15 Mbps, 延迟: 0.00 ms
+2026-02-08 14:56:04 - WiFiTest - INFO - Application closed by user
+2026-02-08 14:58:42 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 14:58:43 - WiFiTest - INFO - Speed test panel initialized
+2026-02-08 14:58:43 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 14:58:43 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 14:58:43 - WiFiTest - INFO - Main window initialized
+2026-02-08 14:58:44 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 14:59:51 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 14:59:52 - WiFiTest - INFO - Speed test panel initialized
+2026-02-08 14:59:52 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 14:59:52 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 14:59:52 - WiFiTest - INFO - Main window initialized
+2026-02-08 14:59:53 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 14:59:54 - WiFiTest - INFO - Speed test started
+2026-02-08 14:59:54 - WiFiTest - INFO - Starting latency test to 8.8.8.8
+2026-02-08 14:59:57 - WiFiTest - INFO - Latency test completed in 3.09s
+2026-02-08 14:59:57 - WiFiTest - INFO - Ping output: 
+���� Ping 8.8.8.8 ���� 32 �ֽڵ�����:
+���� 8.8.8.8 �Ļظ�: �ֽ�=32 ʱ��=55ms TTL=111
+���� 8.8.8.8 �Ļظ�: �ֽ�=32 ʱ��=53ms TTL=111
+���� 8.8.8.8 �Ļظ�: �ֽ�=32 ʱ��=53ms TTL=111
+���� 8.8.8.8 �Ļظ�: �ֽ�=32 ʱ��=54ms TTL=111
+
+8.8.8.8 �� Ping ͳ����Ϣ:
+    ���ݰ�: �ѷ��� = 4���ѽ��� = 4����ʧ = 0 (0% ��ʧ)��
+�����г̵Ĺ���ʱ��(�Ժ���Ϊ��λ):
+    ��� = 53ms��� = 55ms��ƽ�� = 53ms
+
+2026-02-08 14:59:57 - WiFiTest - WARNING - Using approximate latency: 771 ms
+2026-02-08 14:59:57 - WiFiTest - INFO - Starting latency test to 8.8.8.8
+2026-02-08 15:00:00 - WiFiTest - INFO - Latency test completed in 3.10s
+2026-02-08 15:00:00 - WiFiTest - INFO - Ping output: 
+���� Ping 8.8.8.8 ���� 32 �ֽڵ�����:
+���� 8.8.8.8 �Ļظ�: �ֽ�=32 ʱ��=53ms TTL=111
+���� 8.8.8.8 �Ļظ�: �ֽ�=32 ʱ��=54ms TTL=111
+���� 8.8.8.8 �Ļظ�: �ֽ�=32 ʱ��=54ms TTL=111
+���� 8.8.8.8 �Ļظ�: �ֽ�=32 ʱ��=55ms TTL=111
+
+8.8.8.8 �� Ping ͳ����Ϣ:
+    ���ݰ�: �ѷ��� = 4���ѽ��� = 4����ʧ = 0 (0% ��ʧ)��
+�����г̵Ĺ���ʱ��(�Ժ���Ϊ��λ):
+    ��� = 53ms��� = 55ms��ƽ�� = 54ms
+
+2026-02-08 15:00:00 - WiFiTest - WARNING - Using approximate latency: 775 ms
+2026-02-08 15:00:00 - WiFiTest - INFO - Starting latency test to 8.8.8.8
+2026-02-08 15:00:03 - WiFiTest - INFO - Latency test completed in 3.10s
+2026-02-08 15:00:03 - WiFiTest - INFO - Ping output: 
+���� Ping 8.8.8.8 ���� 32 �ֽڵ�����:
+���� 8.8.8.8 �Ļظ�: �ֽ�=32 ʱ��=54ms TTL=111
+���� 8.8.8.8 �Ļظ�: �ֽ�=32 ʱ��=54ms TTL=111
+���� 8.8.8.8 �Ļظ�: �ֽ�=32 ʱ��=53ms TTL=111
+���� 8.8.8.8 �Ļظ�: �ֽ�=32 ʱ��=54ms TTL=111
+
+8.8.8.8 �� Ping ͳ����Ϣ:
+    ���ݰ�: �ѷ��� = 4���ѽ��� = 4����ʧ = 0 (0% ��ʧ)��
+�����г̵Ĺ���ʱ��(�Ժ���Ϊ��λ):
+    ��� = 53ms��� = 54ms��ƽ�� = 53ms
+
+2026-02-08 15:00:03 - WiFiTest - WARNING - Using approximate latency: 774 ms
+2026-02-08 15:00:03 - WiFiTest - INFO - Starting download test from Tele2 (1MB) (http://speedtest.tele2.net/1MB.zip)
+2026-02-08 15:02:47 - WiFiTest - INFO - Download test completed: status=200, time=164.26s, size=1.00MB
+2026-02-08 15:02:47 - WiFiTest - INFO - Download speed: 0.05 Mbps from Tele2 (1MB)
+2026-02-08 15:02:47 - WiFiTest - INFO - Starting download test from OTEnet (1MB) (http://speedtest.ftp.otenet.gr/files/test1Mb.db)
+2026-02-08 15:02:48 - WiFiTest - INFO - Download test completed: status=403, time=0.65s, size=0.00MB
+2026-02-08 15:02:48 - WiFiTest - INFO - Starting download test from Stuttgart (1MB) (http://ftp.uni-stuttgart.de/pub/mirrors/speedtest.tele2.net/1MB.zip)
+2026-02-08 15:02:49 - WiFiTest - INFO - Download test completed: status=404, time=0.91s, size=0.00MB
+2026-02-08 15:02:49 - WiFiTest - INFO - Best download speed: 0.05 Mbps from Tele2 (1MB)
+2026-02-08 15:02:49 - WiFiTest - INFO - Starting download test from Tele2 (1MB) (http://speedtest.tele2.net/1MB.zip)
+2026-02-08 15:04:32 - WiFiTest - INFO - Download test completed: status=200, time=102.71s, size=1.00MB
+2026-02-08 15:04:32 - WiFiTest - INFO - Download speed: 0.08 Mbps from Tele2 (1MB)
+2026-02-08 15:04:32 - WiFiTest - INFO - Starting download test from OTEnet (1MB) (http://speedtest.ftp.otenet.gr/files/test1Mb.db)
+2026-02-08 15:04:33 - WiFiTest - INFO - Download test completed: status=403, time=1.44s, size=0.00MB
+2026-02-08 15:04:33 - WiFiTest - INFO - Starting download test from Stuttgart (1MB) (http://ftp.uni-stuttgart.de/pub/mirrors/speedtest.tele2.net/1MB.zip)
+2026-02-08 15:04:34 - WiFiTest - INFO - Download test completed: status=404, time=0.66s, size=0.00MB
+2026-02-08 15:04:34 - WiFiTest - INFO - Best download speed: 0.08 Mbps from Tele2 (1MB)
+2026-02-08 15:04:34 - WiFiTest - INFO - Starting download test from Tele2 (1MB) (http://speedtest.tele2.net/1MB.zip)
+2026-02-08 15:06:38 - WiFiTest - INFO - Download test completed: status=200, time=123.72s, size=1.00MB
+2026-02-08 15:06:38 - WiFiTest - INFO - Download speed: 0.07 Mbps from Tele2 (1MB)
+2026-02-08 15:06:38 - WiFiTest - INFO - Starting download test from OTEnet (1MB) (http://speedtest.ftp.otenet.gr/files/test1Mb.db)
+2026-02-08 15:06:39 - WiFiTest - INFO - Download test completed: status=403, time=1.66s, size=0.00MB
+2026-02-08 15:06:39 - WiFiTest - INFO - Starting download test from Stuttgart (1MB) (http://ftp.uni-stuttgart.de/pub/mirrors/speedtest.tele2.net/1MB.zip)
+2026-02-08 15:06:41 - WiFiTest - INFO - Download test completed: status=404, time=1.73s, size=0.00MB
+2026-02-08 15:06:41 - WiFiTest - INFO - Best download speed: 0.07 Mbps from Tele2 (1MB)
+2026-02-08 15:06:41 - WiFiTest - INFO - Starting upload test to httpbin.org (http://httpbin.org/post)
+2026-02-08 15:06:44 - WiFiTest - INFO - Upload test completed: status=200, time=3.60s, size=128.01KB
+2026-02-08 15:06:44 - WiFiTest - INFO - Upload speed: 0.29 Mbps to httpbin.org
+2026-02-08 15:06:44 - WiFiTest - INFO - Starting upload test to Postman Echo (https://postman-echo.com/post)
+2026-02-08 15:06:46 - WiFiTest - INFO - Upload test completed: status=500, time=1.50s, size=128.01KB
+2026-02-08 15:06:46 - WiFiTest - INFO - Best upload speed: 0.29 Mbps to httpbin.org
+2026-02-08 15:06:46 - WiFiTest - INFO - Starting upload test to httpbin.org (http://httpbin.org/post)
+2026-02-08 15:06:57 - WiFiTest - INFO - Upload test completed: status=200, time=10.95s, size=128.01KB
+2026-02-08 15:06:57 - WiFiTest - INFO - Upload speed: 0.10 Mbps to httpbin.org
+2026-02-08 15:06:57 - WiFiTest - INFO - Starting upload test to Postman Echo (https://postman-echo.com/post)
+2026-02-08 15:07:00 - WiFiTest - INFO - Upload test completed: status=500, time=2.77s, size=128.01KB
+2026-02-08 15:07:00 - WiFiTest - INFO - Best upload speed: 0.10 Mbps to httpbin.org
+2026-02-08 15:07:00 - WiFiTest - INFO - Starting upload test to httpbin.org (http://httpbin.org/post)
+2026-02-08 15:07:11 - WiFiTest - INFO - Upload test completed: status=200, time=11.61s, size=128.01KB
+2026-02-08 15:07:11 - WiFiTest - INFO - Upload speed: 0.09 Mbps to httpbin.org
+2026-02-08 15:07:11 - WiFiTest - INFO - Starting upload test to Postman Echo (https://postman-echo.com/post)
+2026-02-08 15:07:13 - WiFiTest - INFO - Upload test completed: status=500, time=1.44s, size=128.01KB
+2026-02-08 15:07:13 - WiFiTest - INFO - Best upload speed: 0.09 Mbps to httpbin.org
+2026-02-08 15:07:13 - WiFiTest - INFO - Speed test completed: 下载: 0.07 Mbps, 上传: 0.16 Mbps, 延迟: 773.44 ms
+2026-02-08 15:10:38 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 15:10:40 - WiFiTest - INFO - Speed test panel initialized
+2026-02-08 15:10:40 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 15:10:40 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 15:10:40 - WiFiTest - INFO - Main window initialized
+2026-02-08 15:10:40 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 15:11:54 - WiFiTest - INFO - Speed test started
+2026-02-08 15:11:54 - WiFiTest - INFO - Starting latency test to 8.8.8.8
+2026-02-08 15:11:57 - WiFiTest - INFO - Latency test completed in 3.12s
+2026-02-08 15:11:57 - WiFiTest - INFO - Ping output: 
+���� Ping 8.8.8.8 ���� 32 �ֽڵ�����:
+���� 8.8.8.8 �Ļظ�: �ֽ�=32 ʱ��=56ms TTL=111
+���� 8.8.8.8 �Ļظ�: �ֽ�=32 ʱ��=53ms TTL=111
+���� 8.8.8.8 �Ļظ�: �ֽ�=32 ʱ��=54ms TTL=111
+���� 8.8.8.8 �Ļظ�: �ֽ�=32 ʱ��=55ms TTL=111
+
+8.8.8.8 �� Ping ͳ����Ϣ:
+    ���ݰ�: �ѷ��� = 4���ѽ��� = 4����ʧ = 0 (0% ��ʧ)��
+�����г̵Ĺ���ʱ��(�Ժ���Ϊ��λ):
+    ��� = 53ms��� = 56ms��ƽ�� = 54ms
+
+2026-02-08 15:11:57 - WiFiTest - WARNING - Using approximate latency: 781 ms
+2026-02-08 15:11:57 - WiFiTest - INFO - Starting latency test to 8.8.8.8
+2026-02-08 15:12:00 - WiFiTest - INFO - Latency test completed in 3.09s
+2026-02-08 15:12:00 - WiFiTest - INFO - Ping output: 
+���� Ping 8.8.8.8 ���� 32 �ֽڵ�����:
+���� 8.8.8.8 �Ļظ�: �ֽ�=32 ʱ��=54ms TTL=111
+���� 8.8.8.8 �Ļظ�: �ֽ�=32 ʱ��=53ms TTL=111
+���� 8.8.8.8 �Ļظ�: �ֽ�=32 ʱ��=54ms TTL=111
+���� 8.8.8.8 �Ļظ�: �ֽ�=32 ʱ��=54ms TTL=111
+
+8.8.8.8 �� Ping ͳ����Ϣ:
+    ���ݰ�: �ѷ��� = 4���ѽ��� = 4����ʧ = 0 (0% ��ʧ)��
+�����г̵Ĺ���ʱ��(�Ժ���Ϊ��λ):
+    ��� = 53ms��� = 54ms��ƽ�� = 53ms
+
+2026-02-08 15:12:00 - WiFiTest - WARNING - Using approximate latency: 773 ms
+2026-02-08 15:12:00 - WiFiTest - INFO - Starting latency test to 8.8.8.8
+2026-02-08 15:12:03 - WiFiTest - INFO - Latency test completed in 3.09s
+2026-02-08 15:12:03 - WiFiTest - INFO - Ping output: 
+���� Ping 8.8.8.8 ���� 32 �ֽڵ�����:
+���� 8.8.8.8 �Ļظ�: �ֽ�=32 ʱ��=53ms TTL=111
+���� 8.8.8.8 �Ļظ�: �ֽ�=32 ʱ��=54ms TTL=111
+���� 8.8.8.8 �Ļظ�: �ֽ�=32 ʱ��=54ms TTL=111
+���� 8.8.8.8 �Ļظ�: �ֽ�=32 ʱ��=53ms TTL=111
+
+8.8.8.8 �� Ping ͳ����Ϣ:
+    ���ݰ�: �ѷ��� = 4���ѽ��� = 4����ʧ = 0 (0% ��ʧ)��
+�����г̵Ĺ���ʱ��(�Ժ���Ϊ��λ):
+    ��� = 53ms��� = 54ms��ƽ�� = 53ms
+
+2026-02-08 15:12:03 - WiFiTest - WARNING - Using approximate latency: 773 ms
+2026-02-08 15:12:03 - WiFiTest - INFO - Starting download test from Tele2 (1MB) (http://speedtest.tele2.net/1MB.zip)
+2026-02-08 15:13:43 - WiFiTest - INFO - Download test completed: status=200, time=99.60s, size=1.00MB
+2026-02-08 15:13:43 - WiFiTest - INFO - Download speed: 0.08 Mbps from Tele2 (1MB)
+2026-02-08 15:13:43 - WiFiTest - INFO - Starting download test from OTEnet (1MB) (http://speedtest.ftp.otenet.gr/files/test1Mb.db)
+2026-02-08 15:13:43 - WiFiTest - INFO - Download test completed: status=403, time=0.47s, size=0.00MB
+2026-02-08 15:13:43 - WiFiTest - INFO - Starting download test from Stuttgart (1MB) (http://ftp.uni-stuttgart.de/pub/mirrors/speedtest.tele2.net/1MB.zip)
+2026-02-08 15:13:44 - WiFiTest - INFO - Download test completed: status=404, time=0.61s, size=0.00MB
+2026-02-08 15:13:44 - WiFiTest - INFO - Best download speed: 0.08 Mbps from Tele2 (1MB)
+2026-02-08 15:13:44 - WiFiTest - INFO - Starting download test from Tele2 (1MB) (http://speedtest.tele2.net/1MB.zip)
+2026-02-08 15:15:19 - WiFiTest - INFO - Download test completed: status=200, time=95.78s, size=1.00MB
+2026-02-08 15:15:19 - WiFiTest - INFO - Download speed: 0.09 Mbps from Tele2 (1MB)
+2026-02-08 15:15:19 - WiFiTest - INFO - Starting download test from OTEnet (1MB) (http://speedtest.ftp.otenet.gr/files/test1Mb.db)
+2026-02-08 15:15:20 - WiFiTest - INFO - Download test completed: status=403, time=0.61s, size=0.00MB
+2026-02-08 15:15:20 - WiFiTest - INFO - Starting download test from Stuttgart (1MB) (http://ftp.uni-stuttgart.de/pub/mirrors/speedtest.tele2.net/1MB.zip)
+2026-02-08 15:15:21 - WiFiTest - INFO - Download test completed: status=404, time=0.60s, size=0.00MB
+2026-02-08 15:15:21 - WiFiTest - INFO - Best download speed: 0.09 Mbps from Tele2 (1MB)
+2026-02-08 15:15:21 - WiFiTest - INFO - Starting download test from Tele2 (1MB) (http://speedtest.tele2.net/1MB.zip)
+2026-02-08 15:17:08 - WiFiTest - INFO - Download test completed: status=200, time=107.40s, size=1.00MB
+2026-02-08 15:17:08 - WiFiTest - INFO - Download speed: 0.08 Mbps from Tele2 (1MB)
+2026-02-08 15:17:08 - WiFiTest - INFO - Starting download test from OTEnet (1MB) (http://speedtest.ftp.otenet.gr/files/test1Mb.db)
+2026-02-08 15:17:09 - WiFiTest - INFO - Download test completed: status=403, time=1.41s, size=0.00MB
+2026-02-08 15:17:09 - WiFiTest - INFO - Starting download test from Stuttgart (1MB) (http://ftp.uni-stuttgart.de/pub/mirrors/speedtest.tele2.net/1MB.zip)
+2026-02-08 15:17:11 - WiFiTest - INFO - Download test completed: status=404, time=1.41s, size=0.00MB
+2026-02-08 15:17:11 - WiFiTest - INFO - Best download speed: 0.08 Mbps from Tele2 (1MB)
+2026-02-08 15:17:11 - WiFiTest - INFO - Starting upload test to httpbin.org (http://httpbin.org/post)
+2026-02-08 15:17:20 - WiFiTest - INFO - Upload test completed: status=200, time=8.73s, size=128.01KB
+2026-02-08 15:17:20 - WiFiTest - INFO - Upload speed: 0.12 Mbps to httpbin.org
+2026-02-08 15:17:20 - WiFiTest - INFO - Starting upload test to Postman Echo (https://postman-echo.com/post)
+2026-02-08 15:17:21 - WiFiTest - INFO - Upload test completed: status=500, time=1.48s, size=128.01KB
+2026-02-08 15:17:21 - WiFiTest - INFO - Best upload speed: 0.12 Mbps to httpbin.org
+2026-02-08 15:17:21 - WiFiTest - INFO - Starting upload test to httpbin.org (http://httpbin.org/post)
+2026-02-08 15:17:28 - WiFiTest - INFO - Upload test completed: status=200, time=6.47s, size=128.01KB
+2026-02-08 15:17:28 - WiFiTest - INFO - Upload speed: 0.16 Mbps to httpbin.org
+2026-02-08 15:17:28 - WiFiTest - INFO - Starting upload test to Postman Echo (https://postman-echo.com/post)
+2026-02-08 15:17:29 - WiFiTest - INFO - Upload test completed: status=500, time=1.48s, size=128.01KB
+2026-02-08 15:17:29 - WiFiTest - INFO - Best upload speed: 0.16 Mbps to httpbin.org
+2026-02-08 15:17:29 - WiFiTest - INFO - Starting upload test to httpbin.org (http://httpbin.org/post)
+2026-02-08 15:17:31 - WiFiTest - INFO - Upload test completed: status=200, time=2.41s, size=128.01KB
+2026-02-08 15:17:31 - WiFiTest - INFO - Upload speed: 0.44 Mbps to httpbin.org
+2026-02-08 15:17:31 - WiFiTest - INFO - Starting upload test to Postman Echo (https://postman-echo.com/post)
+2026-02-08 15:17:33 - WiFiTest - INFO - Upload test completed: status=500, time=1.47s, size=128.01KB
+2026-02-08 15:17:33 - WiFiTest - INFO - Best upload speed: 0.44 Mbps to httpbin.org
+2026-02-08 15:17:33 - WiFiTest - INFO - Speed test completed: 下载: 0.08 Mbps, 上传: 0.24 Mbps, 延迟: 775.71 ms
+2026-02-08 15:19:03 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 15:19:04 - WiFiTest - INFO - Speed test panel initialized
+2026-02-08 15:19:04 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 15:19:04 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 15:19:04 - WiFiTest - INFO - Main window initialized
+2026-02-08 15:19:05 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 15:22:35 - WiFiTest - INFO - Application closed by user
+2026-02-08 15:31:58 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 15:31:59 - WiFiTest - INFO - Speed test panel initialized
+2026-02-08 15:31:59 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 15:31:59 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 15:31:59 - WiFiTest - INFO - Main window initialized
+2026-02-08 15:31:59 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 15:32:01 - WiFiTest - INFO - Speed test started
+2026-02-08 15:32:01 - WiFiTest - INFO - Starting latency test to 8.8.8.8
+2026-02-08 15:32:04 - WiFiTest - INFO - Latency test completed in 3.12s
+2026-02-08 15:32:04 - WiFiTest - INFO - Ping output: 
+���� Ping 8.8.8.8 ���� 32 �ֽڵ�����:
+���� 8.8.8.8 �Ļظ�: �ֽ�=32 ʱ��=78ms TTL=111
+���� 8.8.8.8 �Ļظ�: �ֽ�=32 ʱ��=122ms TTL=111
+���� 8.8.8.8 �Ļظ�: �ֽ�=32 ʱ��=139ms TTL=111
+���� 8.8.8.8 �Ļظ�: �ֽ�=32 ʱ��=54ms TTL=111
+
+8.8.8.8 �� Ping ͳ����Ϣ:
+    ���ݰ�: �ѷ��� = 4���ѽ��� = 4����ʧ = 0 (0% ��ʧ)��
+�����г̵Ĺ���ʱ��(�Ժ���Ϊ��λ):
+    ��� = 54ms��� = 139ms��ƽ�� = 98ms
+
+2026-02-08 15:32:04 - WiFiTest - WARNING - Using approximate latency: 779 ms
+2026-02-08 15:32:04 - WiFiTest - INFO - Starting latency test to 8.8.8.8
+2026-02-08 15:32:11 - WiFiTest - INFO - Latency test completed in 6.71s
+2026-02-08 15:32:11 - WiFiTest - INFO - Ping output: 
+���� Ping 8.8.8.8 ���� 32 �ֽڵ�����:
+���� 8.8.8.8 �Ļظ�: �ֽ�=32 ʱ��=59ms TTL=111
+����ʱ��
+���� 8.8.8.8 �Ļظ�: �ֽ�=32 ʱ��=54ms TTL=111
+���� 8.8.8.8 �Ļظ�: �ֽ�=32 ʱ��=56ms TTL=111
+
+8.8.8.8 �� Ping ͳ����Ϣ:
+    ���ݰ�: �ѷ��� = 4���ѽ��� = 3����ʧ = 1 (25% ��ʧ)��
+�����г̵Ĺ���ʱ��(�Ժ���Ϊ��λ):
+    ��� = 54ms��� = 59ms��ƽ�� = 56ms
+
+2026-02-08 15:32:11 - WiFiTest - WARNING - Using approximate latency: 1677 ms
+2026-02-08 15:32:11 - WiFiTest - INFO - Starting latency test to 8.8.8.8
+2026-02-08 15:32:14 - WiFiTest - INFO - Latency test completed in 3.11s
+2026-02-08 15:32:14 - WiFiTest - INFO - Ping output: 
+���� Ping 8.8.8.8 ���� 32 �ֽڵ�����:
+���� 8.8.8.8 �Ļظ�: �ֽ�=32 ʱ��=56ms TTL=111
+���� 8.8.8.8 �Ļظ�: �ֽ�=32 ʱ��=55ms TTL=111
+���� 8.8.8.8 �Ļظ�: �ֽ�=32 ʱ��=55ms TTL=111
+���� 8.8.8.8 �Ļظ�: �ֽ�=32 ʱ��=54ms TTL=111
+
+8.8.8.8 �� Ping ͳ����Ϣ:
+    ���ݰ�: �ѷ��� = 4���ѽ��� = 4����ʧ = 0 (0% ��ʧ)��
+�����г̵Ĺ���ʱ��(�Ժ���Ϊ��λ):
+    ��� = 54ms��� = 56ms��ƽ�� = 55ms
+
+2026-02-08 15:32:14 - WiFiTest - WARNING - Using approximate latency: 779 ms
+2026-02-08 15:32:14 - WiFiTest - INFO - Starting download test from USTC (Ubuntu ISO) (https://mirrors.ustc.edu.cn/ubuntu-releases/20.04/ubuntu-20.04.1-desktop-amd64.iso)
+2026-02-08 15:32:15 - WiFiTest - INFO - Download test completed: status=204, time=1.19s, size=0.00MB
+2026-02-08 15:32:15 - WiFiTest - INFO - Starting download test from Tsinghua (Ubuntu ISO) (https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/20.04/ubuntu-20.04.1-desktop-amd64.iso)
+2026-02-08 15:32:15 - WiFiTest - INFO - Download test completed: status=403, time=0.21s, size=0.01MB
+2026-02-08 15:32:15 - WiFiTest - INFO - Starting download test from Tele2 (1MB) (http://speedtest.tele2.net/1MB.zip)
+2026-02-08 15:37:59 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 15:38:01 - WiFiTest - INFO - Speed test panel initialized
+2026-02-08 15:38:01 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 15:38:01 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 15:38:01 - WiFiTest - INFO - Main window initialized
+2026-02-08 15:38:01 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 15:43:07 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 15:43:08 - WiFiTest - INFO - Speed test panel initialized
+2026-02-08 15:43:08 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 15:43:08 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 15:43:08 - WiFiTest - INFO - Main window initialized
+2026-02-08 15:43:09 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 15:44:19 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 15:44:20 - WiFiTest - INFO - Speed test panel initialized
+2026-02-08 15:44:20 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 15:44:20 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 15:44:20 - WiFiTest - INFO - Main window initialized
+2026-02-08 15:44:21 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 15:44:22 - WiFiTest - INFO - Speed test started using speedtest-cli
+2026-02-08 15:44:22 - WiFiTest - INFO - Starting speed test using speedtest-cli
+2026-02-08 15:45:31 - WiFiTest - INFO - Speedtest-cli output: Ping: 168.445 ms
+Download: 9.27 Mbit/s
+Upload: 21.11 Mbit/s
+
+2026-02-08 15:45:31 - WiFiTest - INFO - Speed test completed: Download=9.27 Mbps, Upload=21.11 Mbps, Latency=168 ms
+2026-02-08 15:45:31 - WiFiTest - INFO - Speed test completed: 下载: 9.27 Mbps, 上传: 21.11 Mbps, 延迟: 168.44 ms
+2026-02-08 15:51:58 - WiFiTest - INFO - Application closed by user
+2026-02-08 15:52:02 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 15:52:03 - WiFiTest - INFO - Speed test panel initialized
+2026-02-08 15:52:03 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 15:52:03 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 15:52:03 - WiFiTest - INFO - Main window initialized
+2026-02-08 15:52:03 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 15:52:05 - WiFiTest - INFO - Speed test started using speedtest-cli
+2026-02-08 15:52:05 - WiFiTest - INFO - Starting speed test using speedtest-cli
+2026-02-08 15:53:23 - WiFiTest - INFO - Speedtest-cli output: Ping: 143.694 ms
+Download: 5.71 Mbit/s
+Upload: 8.44 Mbit/s
+
+2026-02-08 15:53:23 - WiFiTest - INFO - Speed test completed: Download=5.71 Mbps, Upload=8.44 Mbps, Latency=144 ms
+2026-02-08 15:53:23 - WiFiTest - INFO - Speed test completed: 下载: 5.71 Mbps, 上传: 8.44 Mbps, 延迟: 143.69 ms
+2026-02-08 15:58:15 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 15:58:16 - WiFiTest - INFO - Speed test panel initialized
+2026-02-08 15:58:16 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 15:58:16 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 15:58:16 - WiFiTest - INFO - Main window initialized
+2026-02-08 15:58:16 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 16:08:42 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 16:08:44 - WiFiTest - INFO - Speed test panel initialized
+2026-02-08 16:08:44 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 16:08:44 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 16:08:44 - WiFiTest - INFO - Main window initialized
+2026-02-08 16:08:44 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 16:09:28 - WiFiTest - INFO - Application closed by user
+2026-02-08 16:09:31 - WiFiTest - INFO - Application closed by user
+2026-02-08 16:09:34 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 16:09:36 - WiFiTest - INFO - Speed test panel initialized
+2026-02-08 16:09:36 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 16:09:36 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 16:09:36 - WiFiTest - INFO - Main window initialized
+2026-02-08 16:09:36 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 16:09:38 - WiFiTest - INFO - Speed test started using requests library
+2026-02-08 16:09:38 - WiFiTest - INFO - Starting speed test using requests library
+2026-02-08 16:09:38 - WiFiTest - INFO - Starting latency test to 8.8.8.8
+2026-02-08 16:09:39 - WiFiTest - INFO - Latency test to 8.8.8.8 completed in 1.08s
+2026-02-08 16:09:39 - WiFiTest - DEBUG - Ping output: 
+���� Ping 8.8.8.8 ���� 32 �ֽڵ�����:
+���� 8.8.8.8 �Ļظ�: �ֽ�=32 ʱ��=55ms TTL=111
+���� 8.8.8.8 �Ļظ�: �ֽ�=32 ʱ��=54ms TTL=111
+
+8.8.8.8 �� Ping ͳ����Ϣ:
+    ���ݰ�: �ѷ��� = 2���ѽ��� = 2����ʧ = 0 (0% ��ʧ)��
+�����г̵Ĺ���ʱ��(�Ժ���Ϊ��λ):
+    ��� = 54ms��� = 55ms��ƽ�� = 54ms
+
+2026-02-08 16:09:39 - WiFiTest - WARNING - Using approximate latency to 8.8.8.8: 542 ms
+2026-02-08 16:09:39 - WiFiTest - INFO - Starting latency test to 223.5.5.5
+2026-02-08 16:09:40 - WiFiTest - INFO - Latency test to 223.5.5.5 completed in 1.05s
+2026-02-08 16:09:40 - WiFiTest - DEBUG - Ping output: 
+���� Ping 223.5.5.5 ���� 32 �ֽڵ�����:
+���� 223.5.5.5 �Ļظ�: �ֽ�=32 ʱ��=27ms TTL=52
+���� 223.5.5.5 �Ļظ�: �ֽ�=32 ʱ��=27ms TTL=52
+
+223.5.5.5 �� Ping ͳ����Ϣ:
+    ���ݰ�: �ѷ��� = 2���ѽ��� = 2����ʧ = 0 (0% ��ʧ)��
+�����г̵Ĺ���ʱ��(�Ժ���Ϊ��λ):
+    ��� = 27ms��� = 27ms��ƽ�� = 27ms
+
+2026-02-08 16:09:40 - WiFiTest - INFO - Starting latency test to 114.114.114.114
+2026-02-08 16:09:45 - WiFiTest - WARNING - Latency test timeout to 114.114.114.114
+2026-02-08 16:09:45 - WiFiTest - INFO - Best latency: 542 ms
+2026-02-08 16:09:45 - WiFiTest - INFO - Testing download speed using Tele2 (10MB)
+2026-02-08 16:09:54 - WiFiTest - DEBUG - Download test timeout on Tele2 (10MB)
+2026-02-08 16:09:54 - WiFiTest - DEBUG - Download test insufficient data: status=200, time=9.4s, downloaded=0.1MB
+2026-02-08 16:09:54 - WiFiTest - INFO - Testing download speed using OTEnet (10MB)
+2026-02-08 16:10:00 - WiFiTest - DEBUG - Download test insufficient data: status=403, time=5.5s, downloaded=0.0MB
+2026-02-08 16:10:00 - WiFiTest - INFO - Testing download speed using Thinkbroadband (10MB)
+2026-02-08 16:10:03 - WiFiTest - DEBUG - Download test connection error on Thinkbroadband (10MB)
+2026-02-08 16:10:03 - WiFiTest - WARNING - All download test servers failed or returned insufficient data
+2026-02-08 16:10:03 - WiFiTest - INFO - Testing upload speed using http://httpbin.org/post
+2026-02-08 16:10:43 - WiFiTest - INFO - Upload test successful on http://httpbin.org/post: 0.11 Mbps (uploaded 0.5MB in 39.4s)
+2026-02-08 16:10:43 - WiFiTest - INFO - Testing upload speed using https://httpbin.org/post
+2026-02-08 16:11:56 - WiFiTest - INFO - Upload test successful on https://httpbin.org/post: 0.06 Mbps (uploaded 0.5MB in 72.9s)
+2026-02-08 16:11:56 - WiFiTest - INFO - Upload test completed using http://httpbin.org/post: 0.11 Mbps
+2026-02-08 16:11:56 - WiFiTest - INFO - Speed test completed: Download=0.00 Mbps, Upload=0.11 Mbps, Latency=542 ms
+2026-02-08 16:11:56 - WiFiTest - INFO - Speed test completed: 下载: 0.00 Mbps, 上传: 0.11 Mbps, 延迟: 541.79 ms
+2026-02-08 16:12:06 - WiFiTest - INFO - Application closed by user
+2026-02-08 16:16:14 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 16:16:15 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 16:16:15 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 16:16:15 - WiFiTest - INFO - Main window initialized
+2026-02-08 16:16:15 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 16:16:43 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 16:16:44 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 16:16:44 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 16:16:44 - WiFiTest - INFO - Main window initialized
+2026-02-08 16:16:44 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 16:16:58 - WiFiTest - INFO - Application closed by user
+2026-02-08 16:21:19 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 16:21:20 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 16:21:20 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 16:21:20 - WiFiTest - INFO - Main window initialized
+2026-02-08 16:21:20 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 16:21:38 - WiFiTest - INFO - Channel scan started for 2.4GHz
+2026-02-08 16:21:38 - WiFiTest - INFO - Channel analysis completed for 2.4GHz: 14 channels
+2026-02-08 16:21:39 - WiFiTest - INFO - Auto refresh enabled with interval 5 seconds
+2026-02-08 16:21:44 - WiFiTest - DEBUG - Auto refreshing channel analysis for 2.4GHz
+2026-02-08 16:21:44 - WiFiTest - INFO - Channel scan started for 2.4GHz
+2026-02-08 16:21:45 - WiFiTest - INFO - Channel analysis completed for 2.4GHz: 14 channels
+2026-02-08 16:21:49 - WiFiTest - DEBUG - Auto refreshing channel analysis for 2.4GHz
+2026-02-08 16:21:49 - WiFiTest - INFO - Channel scan started for 2.4GHz
+2026-02-08 16:21:50 - WiFiTest - INFO - Channel analysis completed for 2.4GHz: 14 channels
+2026-02-08 16:21:54 - WiFiTest - DEBUG - Auto refreshing channel analysis for 2.4GHz
+2026-02-08 16:21:54 - WiFiTest - INFO - Channel scan started for 2.4GHz
+2026-02-08 16:21:55 - WiFiTest - INFO - Channel analysis completed for 2.4GHz: 14 channels
+2026-02-08 16:21:59 - WiFiTest - DEBUG - Auto refreshing channel analysis for 2.4GHz
+2026-02-08 16:21:59 - WiFiTest - INFO - Channel scan started for 2.4GHz
+2026-02-08 16:22:00 - WiFiTest - INFO - Channel analysis completed for 2.4GHz: 14 channels
+2026-02-08 16:22:04 - WiFiTest - DEBUG - Auto refreshing channel analysis for 2.4GHz
+2026-02-08 16:22:04 - WiFiTest - INFO - Channel scan started for 2.4GHz
+2026-02-08 16:22:05 - WiFiTest - INFO - Channel analysis completed for 2.4GHz: 14 channels
+2026-02-08 16:22:09 - WiFiTest - DEBUG - Auto refreshing channel analysis for 2.4GHz
+2026-02-08 16:22:09 - WiFiTest - INFO - Channel scan started for 2.4GHz
+2026-02-08 16:22:10 - WiFiTest - INFO - Channel analysis completed for 2.4GHz: 14 channels
+2026-02-08 16:22:14 - WiFiTest - DEBUG - Auto refreshing channel analysis for 2.4GHz
+2026-02-08 16:22:14 - WiFiTest - INFO - Channel scan started for 2.4GHz
+2026-02-08 16:22:15 - WiFiTest - INFO - Channel analysis completed for 2.4GHz: 14 channels
+2026-02-08 16:22:19 - WiFiTest - DEBUG - Auto refreshing channel analysis for 2.4GHz
+2026-02-08 16:22:19 - WiFiTest - INFO - Channel scan started for 2.4GHz
+2026-02-08 16:22:20 - WiFiTest - INFO - Channel analysis completed for 2.4GHz: 14 channels
+2026-02-08 16:22:24 - WiFiTest - DEBUG - Auto refreshing channel analysis for 2.4GHz
+2026-02-08 16:22:24 - WiFiTest - INFO - Channel scan started for 2.4GHz
+2026-02-08 16:22:25 - WiFiTest - INFO - Channel analysis completed for 2.4GHz: 14 channels
+2026-02-08 16:22:29 - WiFiTest - DEBUG - Auto refreshing channel analysis for 2.4GHz
+2026-02-08 16:22:29 - WiFiTest - INFO - Channel scan started for 2.4GHz
+2026-02-08 16:22:30 - WiFiTest - INFO - Channel analysis completed for 2.4GHz: 14 channels
+2026-02-08 16:22:31 - WiFiTest - INFO - Auto refresh disabled
+2026-02-08 16:28:31 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 16:28:32 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 16:28:32 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 16:28:32 - WiFiTest - INFO - Main window initialized
+2026-02-08 16:28:33 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 16:31:43 - WiFiTest - INFO - Application closed by user
+2026-02-08 16:31:48 - WiFiTest - INFO - Application closed by user
+2026-02-08 16:31:52 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 16:31:53 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 16:31:53 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 16:31:53 - WiFiTest - INFO - Main window initialized
+2026-02-08 16:31:53 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 16:31:57 - WiFiTest - WARNING - Warning: 错误 - 没有可用的信道数据，请先扫描信道
+2026-02-08 16:32:12 - WiFiTest - INFO - Application closed by user
+2026-02-08 16:35:49 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 16:35:50 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 16:35:50 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 16:35:50 - WiFiTest - INFO - Main window initialized
+2026-02-08 16:35:50 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 16:37:32 - WiFiTest - INFO - Channel scan started for 2.4GHz
+2026-02-08 16:37:32 - WiFiTest - INFO - Channel scan started, waiting for completion
+2026-02-08 16:37:32 - WiFiTest - INFO - Auto analysis started after channel scan completion
+2026-02-08 16:37:32 - WiFiTest - ERROR - Recommendation failed: 'consistency'
+Traceback (most recent call last):
+  File "H:\d\kotlin\wifiTest\src\ui\recommend_panel.py", line 28, in run
+    recommendation = self._analyze_and_recommend()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\d\kotlin\wifiTest\src\ui\recommend_panel.py", line 62, in _analyze_and_recommend
+    best_channel_data = self._evaluate_channels(channel_test_results)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\d\kotlin\wifiTest\src\ui\recommend_panel.py", line 159, in _evaluate_channels
+    score = self._calculate_weighted_score(channel_data['analysis'])
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\d\kotlin\wifiTest\src\ui\recommend_panel.py", line 182, in _calculate_weighted_score
+    consistency_score = analysis['consistency']
+                        ~~~~~~~~^^^^^^^^^^^^^^^
+KeyError: 'consistency'
+2026-02-08 16:37:32 - WiFiTest - INFO - Channel analysis completed for 2.4GHz: 14 channels
+2026-02-08 16:37:32 - WiFiTest - WARNING - Warning: 推荐失败 - 'consistency'
+2026-02-08 16:37:35 - WiFiTest - INFO - Recommendation analysis started with 10 test sets per channel
+2026-02-08 16:37:35 - WiFiTest - ERROR - Recommendation failed: 'consistency'
+Traceback (most recent call last):
+  File "H:\d\kotlin\wifiTest\src\ui\recommend_panel.py", line 28, in run
+    recommendation = self._analyze_and_recommend()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\d\kotlin\wifiTest\src\ui\recommend_panel.py", line 62, in _analyze_and_recommend
+    best_channel_data = self._evaluate_channels(channel_test_results)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\d\kotlin\wifiTest\src\ui\recommend_panel.py", line 159, in _evaluate_channels
+    score = self._calculate_weighted_score(channel_data['analysis'])
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\d\kotlin\wifiTest\src\ui\recommend_panel.py", line 182, in _calculate_weighted_score
+    consistency_score = analysis['consistency']
+                        ~~~~~~~~^^^^^^^^^^^^^^^
+KeyError: 'consistency'
+2026-02-08 16:37:35 - WiFiTest - WARNING - Warning: 推荐失败 - 'consistency'
+2026-02-08 16:37:59 - WiFiTest - INFO - Application closed by user
+2026-02-08 16:39:24 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 16:39:25 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 16:39:25 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 16:39:25 - WiFiTest - INFO - Main window initialized
+2026-02-08 16:39:25 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 16:40:25 - WiFiTest - INFO - Channel scan started for 2.4GHz
+2026-02-08 16:40:25 - WiFiTest - INFO - Channel scan started, waiting for completion
+2026-02-08 16:40:25 - WiFiTest - INFO - Auto analysis started after channel scan completion
+2026-02-08 16:40:25 - WiFiTest - INFO - Channel analysis completed for 2.4GHz: 14 channels
+2026-02-08 16:40:25 - WiFiTest - INFO - Recommendation completed: 推荐信道: 1 (2.4GHz) - 质量评分: 57.5
+2026-02-08 16:40:43 - WiFiTest - INFO - Channel scan started for 2.4GHz
+2026-02-08 16:40:44 - WiFiTest - INFO - Channel analysis completed for 2.4GHz: 14 channels
+2026-02-08 16:44:06 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 16:44:07 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 16:44:07 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 16:44:07 - WiFiTest - INFO - Main window initialized
+2026-02-08 16:44:07 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 16:45:13 - WiFiTest - INFO - Application closed by user
+2026-02-08 16:45:17 - WiFiTest - INFO - Channel scan started for 2.4GHz
+2026-02-08 16:45:17 - WiFiTest - INFO - Channel scan started, waiting for completion
+2026-02-08 16:45:17 - WiFiTest - INFO - Auto analysis started after channel scan completion
+2026-02-08 16:45:17 - WiFiTest - INFO - Channel analysis completed for 2.4GHz: 14 channels
+2026-02-08 16:45:17 - WiFiTest - INFO - Recommendation completed: 推荐信道: 12 (2.4GHz) - 质量评分: 54.5
+2026-02-08 16:45:48 - WiFiTest - INFO - Application closed by user
+2026-02-08 16:47:21 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 16:47:22 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 16:47:22 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 16:47:22 - WiFiTest - INFO - Main window initialized
+2026-02-08 16:47:22 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 16:48:19 - WiFiTest - INFO - Channel scan started for 2.4GHz
+2026-02-08 16:48:19 - WiFiTest - INFO - Channel scan started, waiting for completion
+2026-02-08 16:48:19 - WiFiTest - INFO - Auto analysis started after channel scan completion
+2026-02-08 16:48:19 - WiFiTest - INFO - Channel analysis completed for 2.4GHz: 14 channels
+2026-02-08 16:48:19 - WiFiTest - INFO - Recommendation completed: 推荐信道: 12 (2.4GHz) - 质量评分: 57.1
+2026-02-08 16:49:29 - WiFiTest - INFO - Recommendation analysis started with 10 test sets per channel
+2026-02-08 16:49:29 - WiFiTest - INFO - Recommendation completed: 推荐信道: 12 (2.4GHz) - 质量评分: 56.0
+2026-02-08 16:49:30 - WiFiTest - INFO - Recommendation analysis started with 10 test sets per channel
+2026-02-08 16:49:30 - WiFiTest - INFO - Recommendation completed: 推荐信道: 12 (2.4GHz) - 质量评分: 55.9
+2026-02-08 16:49:31 - WiFiTest - INFO - Recommendation analysis started with 10 test sets per channel
+2026-02-08 16:49:31 - WiFiTest - INFO - Recommendation completed: 推荐信道: 12 (2.4GHz) - 质量评分: 55.2
+2026-02-08 16:49:38 - WiFiTest - INFO - Recommendation analysis started with 10 test sets per channel
+2026-02-08 16:49:38 - WiFiTest - INFO - Recommendation completed: 推荐信道: 12 (2.4GHz) - 质量评分: 55.7
+2026-02-08 16:49:39 - WiFiTest - INFO - Recommendation analysis started with 10 test sets per channel
+2026-02-08 16:49:39 - WiFiTest - INFO - Recommendation completed: 推荐信道: 12 (2.4GHz) - 质量评分: 57.1
+2026-02-08 16:49:39 - WiFiTest - INFO - Recommendation analysis started with 10 test sets per channel
+2026-02-08 16:49:39 - WiFiTest - INFO - Recommendation completed: 推荐信道: 12 (2.4GHz) - 质量评分: 56.1
+2026-02-08 16:49:51 - WiFiTest - INFO - Recommendation analysis started with 10 test sets per channel
+2026-02-08 16:49:51 - WiFiTest - INFO - Recommendation completed: 推荐信道: 12 (2.4GHz) - 质量评分: 56.3
+2026-02-08 16:49:54 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 16:49:55 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 16:49:56 - WiFiTest - INFO - Recommendation analysis started with 10 test sets per channel
+2026-02-08 16:49:56 - WiFiTest - INFO - Recommendation completed: 推荐信道: 52 (5GHz) - 质量评分: 76.1
+2026-02-08 16:49:57 - WiFiTest - INFO - Recommendation analysis started with 10 test sets per channel
+2026-02-08 16:49:57 - WiFiTest - INFO - Recommendation completed: 推荐信道: 52 (5GHz) - 质量评分: 76.3
+2026-02-08 16:50:01 - WiFiTest - INFO - Recommendation analysis started with 10 test sets per channel
+2026-02-08 16:50:01 - WiFiTest - INFO - Recommendation completed: 推荐信道: 52 (5GHz) - 质量评分: 76.6
+2026-02-08 16:50:01 - WiFiTest - INFO - Recommendation analysis started with 10 test sets per channel
+2026-02-08 16:50:01 - WiFiTest - INFO - Recommendation completed: 推荐信道: 52 (5GHz) - 质量评分: 76.1
+2026-02-08 16:50:11 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 16:50:12 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 16:50:12 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 16:50:12 - WiFiTest - INFO - Main window initialized
+2026-02-08 16:50:13 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 16:50:22 - WiFiTest - INFO - Recommendation analysis started with 10 test sets per channel
+2026-02-08 16:50:22 - WiFiTest - INFO - Recommendation completed: 推荐信道: 52 (5GHz) - 质量评分: 78.2
+2026-02-08 16:50:22 - WiFiTest - INFO - Recommendation analysis started with 10 test sets per channel
+2026-02-08 16:50:22 - WiFiTest - INFO - Recommendation completed: 推荐信道: 52 (5GHz) - 质量评分: 74.3
+2026-02-08 16:50:23 - WiFiTest - INFO - Recommendation analysis started with 10 test sets per channel
+2026-02-08 16:50:23 - WiFiTest - INFO - Recommendation completed: 推荐信道: 52 (5GHz) - 质量评分: 76.8
+2026-02-08 16:50:24 - WiFiTest - INFO - Recommendation analysis started with 10 test sets per channel
+2026-02-08 16:50:24 - WiFiTest - INFO - Recommendation completed: 推荐信道: 52 (5GHz) - 质量评分: 75.7
+2026-02-08 16:50:24 - WiFiTest - INFO - Recommendation analysis started with 10 test sets per channel
+2026-02-08 16:50:24 - WiFiTest - INFO - Recommendation completed: 推荐信道: 52 (5GHz) - 质量评分: 74.8
+2026-02-08 16:50:26 - WiFiTest - INFO - Application closed by user
+2026-02-08 16:50:35 - WiFiTest - INFO - Channel scan started for 2.4GHz
+2026-02-08 16:50:35 - WiFiTest - INFO - Channel scan started, waiting for completion
+2026-02-08 16:50:36 - WiFiTest - INFO - Auto analysis started after channel scan completion
+2026-02-08 16:50:36 - WiFiTest - INFO - Channel analysis completed for 2.4GHz: 14 channels
+2026-02-08 16:50:36 - WiFiTest - INFO - Recommendation completed: 推荐信道: 12 (2.4GHz) - 质量评分: 56.5
+2026-02-08 16:53:54 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 16:53:55 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 16:53:56 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 16:53:56 - WiFiTest - INFO - Main window initialized
+2026-02-08 16:53:56 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 16:56:03 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 16:56:04 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 16:56:04 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 16:56:04 - WiFiTest - INFO - Main window initialized
+2026-02-08 16:56:05 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 16:56:28 - WiFiTest - INFO - Channel scan started for 2.4GHz
+2026-02-08 16:56:28 - WiFiTest - INFO - Channel scan started, waiting for completion
+2026-02-08 16:56:28 - WiFiTest - INFO - Auto analysis started after channel scan completion
+2026-02-08 16:56:28 - WiFiTest - INFO - Channel analysis completed for 2.4GHz: 14 channels
+2026-02-08 16:56:28 - WiFiTest - INFO - Recommendation completed: 推荐信道: 5 (2.4GHz) - 质量评分: 56.2
+2026-02-08 16:56:55 - WiFiTest - INFO - Application closed by user
+2026-02-08 17:02:23 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 17:02:24 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 17:02:24 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 17:02:24 - WiFiTest - INFO - Main window initialized
+2026-02-08 17:02:24 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 17:02:49 - WiFiTest - INFO - Channel scan started for 2.4GHz
+2026-02-08 17:02:49 - WiFiTest - INFO - Channel scan started, waiting for completion
+2026-02-08 17:02:49 - WiFiTest - INFO - Auto analysis started after channel scan completion
+2026-02-08 17:02:49 - WiFiTest - INFO - Channel analysis completed for 2.4GHz: 14 channels
+2026-02-08 17:02:49 - WiFiTest - INFO - Recommendation completed: 推荐信道: 3 (2.4GHz) - 质量评分: 57.5
+2026-02-08 17:03:04 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:03:04 - WiFiTest - INFO - Band switched to 5GHz
+2026-02-08 17:03:05 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:03:06 - WiFiTest - INFO - Channel scan started for 2.4GHz
+2026-02-08 17:03:06 - WiFiTest - INFO - Band switched to 2.4GHz
+2026-02-08 17:03:06 - WiFiTest - INFO - Channel analysis completed for 2.4GHz: 14 channels
+2026-02-08 17:03:07 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:03:07 - WiFiTest - INFO - Band switched to 5GHz
+2026-02-08 17:03:07 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:03:08 - WiFiTest - INFO - Recommendation analysis started with 10 test sets per channel
+2026-02-08 17:03:08 - WiFiTest - ERROR - Uncaught exception: RuntimeError: wrapped C/C++ object of type QLabel has been deleted
+Traceback (most recent call last):
+  File "H:\d\kotlin\wifiTest\src\ui\recommend_panel.py", line 875, in _on_recommendation_completed
+    self._update_recommendation_display(recommendation)
+  File "H:\d\kotlin\wifiTest\src\ui\recommend_panel.py", line 889, in _update_recommendation_display
+    self.recommendation_layout.removeWidget(self.placeholder_label)
+RuntimeError: wrapped C/C++ object of type QLabel has been deleted
+2026-02-08 17:03:08 - WiFiTest - ERROR - Exception occurred: RuntimeError: wrapped C/C++ object of type QLabel has been deleted
+NoneType: None
+2026-02-08 17:03:34 - WiFiTest - INFO - Application closed by user
+2026-02-08 17:05:22 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 17:05:23 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 17:05:23 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 17:05:23 - WiFiTest - INFO - Main window initialized
+2026-02-08 17:05:23 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 17:05:28 - WiFiTest - INFO - Channel scan started for 2.4GHz
+2026-02-08 17:05:29 - WiFiTest - INFO - Band switched to 2.4GHz
+2026-02-08 17:05:29 - WiFiTest - INFO - Channel analysis completed for 2.4GHz: 14 channels
+2026-02-08 17:05:30 - WiFiTest - INFO - Recommendation analysis started with 10 test sets per channel
+2026-02-08 17:05:30 - WiFiTest - INFO - Recommendation completed: 推荐信道: 12 (2.4GHz) - 质量评分: 57.0
+2026-02-08 17:05:34 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:05:34 - WiFiTest - INFO - Band switched to 5GHz
+2026-02-08 17:05:34 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:05:34 - WiFiTest - INFO - Recommendation analysis started with 10 test sets per channel
+2026-02-08 17:05:34 - WiFiTest - INFO - Recommendation completed: 推荐信道: 149 (5GHz) - 质量评分: 68.3
+2026-02-08 17:05:39 - WiFiTest - INFO - Recommendation analysis started with 10 test sets per channel
+2026-02-08 17:05:39 - WiFiTest - INFO - Recommendation completed: 推荐信道: 149 (5GHz) - 质量评分: 68.2
+2026-02-08 17:05:40 - WiFiTest - INFO - Recommendation analysis started with 10 test sets per channel
+2026-02-08 17:05:40 - WiFiTest - INFO - Recommendation completed: 推荐信道: 149 (5GHz) - 质量评分: 68.8
+2026-02-08 17:05:40 - WiFiTest - INFO - Recommendation analysis started with 10 test sets per channel
+2026-02-08 17:05:40 - WiFiTest - INFO - Recommendation completed: 推荐信道: 149 (5GHz) - 质量评分: 67.8
+2026-02-08 17:05:40 - WiFiTest - INFO - Recommendation analysis started with 10 test sets per channel
+2026-02-08 17:05:40 - WiFiTest - INFO - Recommendation completed: 推荐信道: 149 (5GHz) - 质量评分: 69.1
+2026-02-08 17:05:40 - WiFiTest - INFO - Recommendation analysis started with 10 test sets per channel
+2026-02-08 17:05:41 - WiFiTest - INFO - Recommendation completed: 推荐信道: 149 (5GHz) - 质量评分: 68.2
+2026-02-08 17:05:41 - WiFiTest - INFO - Recommendation analysis started with 10 test sets per channel
+2026-02-08 17:05:41 - WiFiTest - INFO - Recommendation completed: 推荐信道: 149 (5GHz) - 质量评分: 68.7
+2026-02-08 17:05:41 - WiFiTest - INFO - Recommendation analysis started with 10 test sets per channel
+2026-02-08 17:05:41 - WiFiTest - INFO - Recommendation completed: 推荐信道: 149 (5GHz) - 质量评分: 69.3
+2026-02-08 17:05:41 - WiFiTest - INFO - Recommendation analysis started with 10 test sets per channel
+2026-02-08 17:05:41 - WiFiTest - INFO - Recommendation completed: 推荐信道: 149 (5GHz) - 质量评分: 67.1
+2026-02-08 17:05:41 - WiFiTest - INFO - Recommendation analysis started with 10 test sets per channel
+2026-02-08 17:05:41 - WiFiTest - INFO - Recommendation completed: 推荐信道: 149 (5GHz) - 质量评分: 68.6
+2026-02-08 17:05:41 - WiFiTest - INFO - Recommendation analysis started with 10 test sets per channel
+2026-02-08 17:05:41 - WiFiTest - INFO - Recommendation completed: 推荐信道: 149 (5GHz) - 质量评分: 69.7
+2026-02-08 17:05:42 - WiFiTest - INFO - Recommendation analysis started with 10 test sets per channel
+2026-02-08 17:05:42 - WiFiTest - INFO - Recommendation completed: 推荐信道: 149 (5GHz) - 质量评分: 68.1
+2026-02-08 17:05:42 - WiFiTest - INFO - Recommendation analysis started with 10 test sets per channel
+2026-02-08 17:05:42 - WiFiTest - INFO - Recommendation completed: 推荐信道: 149 (5GHz) - 质量评分: 68.7
+2026-02-08 17:05:42 - WiFiTest - INFO - Recommendation analysis started with 10 test sets per channel
+2026-02-08 17:05:42 - WiFiTest - INFO - Recommendation completed: 推荐信道: 149 (5GHz) - 质量评分: 69.2
+2026-02-08 17:05:42 - WiFiTest - INFO - Recommendation analysis started with 10 test sets per channel
+2026-02-08 17:05:42 - WiFiTest - INFO - Recommendation completed: 推荐信道: 149 (5GHz) - 质量评分: 67.8
+2026-02-08 17:05:42 - WiFiTest - INFO - Recommendation analysis started with 10 test sets per channel
+2026-02-08 17:05:42 - WiFiTest - INFO - Recommendation completed: 推荐信道: 149 (5GHz) - 质量评分: 69.3
+2026-02-08 17:05:42 - WiFiTest - INFO - Recommendation analysis started with 10 test sets per channel
+2026-02-08 17:05:43 - WiFiTest - INFO - Recommendation completed: 推荐信道: 149 (5GHz) - 质量评分: 68.2
+2026-02-08 17:05:43 - WiFiTest - INFO - Recommendation analysis started with 10 test sets per channel
+2026-02-08 17:05:43 - WiFiTest - INFO - Recommendation completed: 推荐信道: 149 (5GHz) - 质量评分: 68.4
+2026-02-08 17:05:43 - WiFiTest - INFO - Recommendation analysis started with 10 test sets per channel
+2026-02-08 17:05:43 - WiFiTest - INFO - Recommendation completed: 推荐信道: 149 (5GHz) - 质量评分: 68.2
+2026-02-08 17:05:43 - WiFiTest - INFO - Recommendation analysis started with 10 test sets per channel
+2026-02-08 17:05:44 - WiFiTest - INFO - Recommendation completed: 推荐信道: 149 (5GHz) - 质量评分: 68.7
+2026-02-08 17:05:44 - WiFiTest - INFO - Recommendation analysis started with 10 test sets per channel
+2026-02-08 17:05:44 - WiFiTest - INFO - Recommendation completed: 推荐信道: 149 (5GHz) - 质量评分: 67.3
+2026-02-08 17:05:44 - WiFiTest - INFO - Recommendation analysis started with 10 test sets per channel
+2026-02-08 17:05:44 - WiFiTest - INFO - Recommendation completed: 推荐信道: 149 (5GHz) - 质量评分: 68.4
+2026-02-08 17:05:44 - WiFiTest - INFO - Recommendation analysis started with 10 test sets per channel
+2026-02-08 17:05:44 - WiFiTest - INFO - Recommendation completed: 推荐信道: 149 (5GHz) - 质量评分: 67.6
+2026-02-08 17:06:15 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:06:16 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:06:21 - WiFiTest - INFO - Auto refresh enabled with interval 5 seconds
+2026-02-08 17:06:22 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:06:22 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:06:26 - WiFiTest - DEBUG - Auto refreshing channel analysis for 5GHz
+2026-02-08 17:06:26 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:06:26 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:06:31 - WiFiTest - DEBUG - Auto refreshing channel analysis for 5GHz
+2026-02-08 17:06:31 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:06:31 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:06:36 - WiFiTest - DEBUG - Auto refreshing channel analysis for 5GHz
+2026-02-08 17:06:36 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:06:36 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:06:41 - WiFiTest - DEBUG - Auto refreshing channel analysis for 5GHz
+2026-02-08 17:06:41 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:06:41 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:06:46 - WiFiTest - DEBUG - Auto refreshing channel analysis for 5GHz
+2026-02-08 17:06:46 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:06:46 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:06:51 - WiFiTest - DEBUG - Auto refreshing channel analysis for 5GHz
+2026-02-08 17:06:51 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:06:51 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:06:56 - WiFiTest - DEBUG - Auto refreshing channel analysis for 5GHz
+2026-02-08 17:06:56 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:06:56 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:07:01 - WiFiTest - DEBUG - Auto refreshing channel analysis for 5GHz
+2026-02-08 17:07:01 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:07:01 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:07:06 - WiFiTest - DEBUG - Auto refreshing channel analysis for 5GHz
+2026-02-08 17:07:06 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:07:06 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:07:11 - WiFiTest - DEBUG - Auto refreshing channel analysis for 5GHz
+2026-02-08 17:07:11 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:07:11 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:07:16 - WiFiTest - DEBUG - Auto refreshing channel analysis for 5GHz
+2026-02-08 17:07:16 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:07:16 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:07:21 - WiFiTest - DEBUG - Auto refreshing channel analysis for 5GHz
+2026-02-08 17:07:21 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:07:21 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:07:26 - WiFiTest - DEBUG - Auto refreshing channel analysis for 5GHz
+2026-02-08 17:07:26 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:07:26 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:07:31 - WiFiTest - DEBUG - Auto refreshing channel analysis for 5GHz
+2026-02-08 17:07:31 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:07:31 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:07:36 - WiFiTest - DEBUG - Auto refreshing channel analysis for 5GHz
+2026-02-08 17:07:36 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:07:36 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:07:41 - WiFiTest - DEBUG - Auto refreshing channel analysis for 5GHz
+2026-02-08 17:07:41 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:07:41 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:07:46 - WiFiTest - DEBUG - Auto refreshing channel analysis for 5GHz
+2026-02-08 17:07:46 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:07:46 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:07:51 - WiFiTest - DEBUG - Auto refreshing channel analysis for 5GHz
+2026-02-08 17:07:51 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:07:51 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:07:56 - WiFiTest - DEBUG - Auto refreshing channel analysis for 5GHz
+2026-02-08 17:07:56 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:07:56 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:08:01 - WiFiTest - DEBUG - Auto refreshing channel analysis for 5GHz
+2026-02-08 17:08:01 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:08:01 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:08:06 - WiFiTest - DEBUG - Auto refreshing channel analysis for 5GHz
+2026-02-08 17:08:06 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:08:06 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:08:11 - WiFiTest - DEBUG - Auto refreshing channel analysis for 5GHz
+2026-02-08 17:08:11 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:08:11 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:08:16 - WiFiTest - DEBUG - Auto refreshing channel analysis for 5GHz
+2026-02-08 17:08:16 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:08:16 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:08:21 - WiFiTest - DEBUG - Auto refreshing channel analysis for 5GHz
+2026-02-08 17:08:21 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:08:21 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:08:26 - WiFiTest - DEBUG - Auto refreshing channel analysis for 5GHz
+2026-02-08 17:08:26 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:08:26 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:08:31 - WiFiTest - DEBUG - Auto refreshing channel analysis for 5GHz
+2026-02-08 17:08:31 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:08:31 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:08:36 - WiFiTest - DEBUG - Auto refreshing channel analysis for 5GHz
+2026-02-08 17:08:36 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:08:36 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:08:41 - WiFiTest - DEBUG - Auto refreshing channel analysis for 5GHz
+2026-02-08 17:08:41 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:08:41 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:08:46 - WiFiTest - DEBUG - Auto refreshing channel analysis for 5GHz
+2026-02-08 17:08:46 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:08:46 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:08:51 - WiFiTest - DEBUG - Auto refreshing channel analysis for 5GHz
+2026-02-08 17:08:51 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:08:51 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:08:56 - WiFiTest - DEBUG - Auto refreshing channel analysis for 5GHz
+2026-02-08 17:08:56 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:08:56 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:09:01 - WiFiTest - DEBUG - Auto refreshing channel analysis for 5GHz
+2026-02-08 17:09:01 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:09:01 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:09:06 - WiFiTest - DEBUG - Auto refreshing channel analysis for 5GHz
+2026-02-08 17:09:06 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:09:06 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:09:11 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:09:11 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:09:11 - WiFiTest - DEBUG - Auto refreshing channel analysis for 5GHz
+2026-02-08 17:09:11 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:09:11 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:09:14 - WiFiTest - INFO - Recommendation analysis started with 10 test sets per channel
+2026-02-08 17:09:14 - WiFiTest - INFO - Recommendation completed: 推荐信道: 40 (5GHz) - 质量评分: 71.6
+2026-02-08 17:09:16 - WiFiTest - DEBUG - Auto refreshing channel analysis for 5GHz
+2026-02-08 17:09:16 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:09:16 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:09:18 - WiFiTest - INFO - Recommendation analysis started with 10 test sets per channel
+2026-02-08 17:09:18 - WiFiTest - INFO - Recommendation completed: 推荐信道: 144 (5GHz) - 质量评分: 71.1
+2026-02-08 17:09:19 - WiFiTest - INFO - Recommendation analysis started with 10 test sets per channel
+2026-02-08 17:09:19 - WiFiTest - INFO - Recommendation completed: 推荐信道: 144 (5GHz) - 质量评分: 72.4
+2026-02-08 17:09:19 - WiFiTest - INFO - Recommendation analysis started with 10 test sets per channel
+2026-02-08 17:09:20 - WiFiTest - INFO - Recommendation completed: 推荐信道: 144 (5GHz) - 质量评分: 71.9
+2026-02-08 17:09:21 - WiFiTest - DEBUG - Auto refreshing channel analysis for 5GHz
+2026-02-08 17:09:21 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:09:21 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:09:22 - WiFiTest - INFO - Auto refresh disabled
+2026-02-08 17:12:39 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 17:12:40 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 17:12:40 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 17:12:40 - WiFiTest - INFO - Main window initialized
+2026-02-08 17:12:40 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 17:13:15 - WiFiTest - INFO - Channel scan started for 2.4GHz
+2026-02-08 17:13:15 - WiFiTest - INFO - Band switched to 2.4GHz
+2026-02-08 17:13:15 - WiFiTest - INFO - Channel analysis completed for 2.4GHz: 14 channels
+2026-02-08 17:13:15 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:13:15 - WiFiTest - INFO - Band switched to 5GHz
+2026-02-08 17:13:16 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:13:16 - WiFiTest - INFO - Channel scan started for 2.4GHz
+2026-02-08 17:13:16 - WiFiTest - INFO - Band switched to 2.4GHz
+2026-02-08 17:13:17 - WiFiTest - INFO - Channel analysis completed for 2.4GHz: 14 channels
+2026-02-08 17:13:17 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:13:17 - WiFiTest - INFO - Band switched to 5GHz
+2026-02-08 17:13:17 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:13:19 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:13:19 - WiFiTest - INFO - Band switched to 5GHz
+2026-02-08 17:13:20 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:13:20 - WiFiTest - INFO - Channel scan started for 2.4GHz
+2026-02-08 17:13:20 - WiFiTest - INFO - Band switched to 2.4GHz
+2026-02-08 17:13:20 - WiFiTest - INFO - Channel analysis completed for 2.4GHz: 14 channels
+2026-02-08 17:13:21 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:13:21 - WiFiTest - INFO - Band switched to 5GHz
+2026-02-08 17:13:21 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:13:22 - WiFiTest - INFO - Recommendation analysis started with 10 test sets per channel
+2026-02-08 17:13:22 - WiFiTest - INFO - Recommendation completed: 推荐信道: 157 (5GHz) - 质量评分: 70.7
+2026-02-08 17:13:28 - WiFiTest - ERROR - Exception occurred: TypeError: RecommendPanel._apply_recommendation() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "H:\d\kotlin\wifiTest\src\utils\exception_handler.py", line 90, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+TypeError: RecommendPanel._apply_recommendation() takes 1 positional argument but 2 were given
+2026-02-08 17:13:47 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:13:48 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:14:00 - WiFiTest - ERROR - Uncaught exception: ValueError: figure size must be positive finite not [11.94 -0.16]
+Traceback (most recent call last):
+  File "H:\d\kotlin\wifiTest\.venv\Lib\site-packages\matplotlib\backends\backend_qt.py", line 401, in resizeEvent
+    self.figure.set_size_inches(winch, hinch, forward=False)
+  File "H:\d\kotlin\wifiTest\.venv\Lib\site-packages\matplotlib\figure.py", line 3142, in set_size_inches
+    raise ValueError(f'figure size must be positive finite not {size}')
+ValueError: figure size must be positive finite not [11.94 -0.16]
+2026-02-08 17:14:00 - WiFiTest - ERROR - Exception occurred: ValueError: figure size must be positive finite not [11.94 -0.16]
+NoneType: None
+2026-02-08 17:14:01 - WiFiTest - ERROR - Uncaught exception: ValueError: figure size must be positive finite not [11.94 -0.16]
+Traceback (most recent call last):
+  File "H:\d\kotlin\wifiTest\.venv\Lib\site-packages\matplotlib\backends\backend_qt.py", line 401, in resizeEvent
+    self.figure.set_size_inches(winch, hinch, forward=False)
+  File "H:\d\kotlin\wifiTest\.venv\Lib\site-packages\matplotlib\figure.py", line 3142, in set_size_inches
+    raise ValueError(f'figure size must be positive finite not {size}')
+ValueError: figure size must be positive finite not [11.94 -0.16]
+2026-02-08 17:14:01 - WiFiTest - ERROR - Exception occurred: ValueError: figure size must be positive finite not [11.94 -0.16]
+NoneType: None
+2026-02-08 17:22:13 - WiFiTest - INFO - Application closed by user
+2026-02-08 17:22:18 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 17:22:19 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 17:22:19 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 17:22:19 - WiFiTest - INFO - Main window initialized
+2026-02-08 17:22:19 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 17:22:24 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:22:24 - WiFiTest - INFO - Band switched to 5GHz
+2026-02-08 17:22:25 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:22:25 - WiFiTest - INFO - Channel scan started for 2.4GHz
+2026-02-08 17:22:25 - WiFiTest - INFO - Band switched to 2.4GHz
+2026-02-08 17:22:25 - WiFiTest - INFO - Channel analysis completed for 2.4GHz: 14 channels
+2026-02-08 17:22:28 - WiFiTest - INFO - Recommendation analysis started with 50 test sets per channel
+2026-02-08 17:22:28 - WiFiTest - INFO - Recommendation completed: 推荐信道: 10 (2.4GHz) - 质量评分: 55.6
+2026-02-08 17:22:41 - WiFiTest - INFO - Recommendation analysis started with 50 test sets per channel
+2026-02-08 17:22:41 - WiFiTest - INFO - Recommendation completed: 推荐信道: 10 (2.4GHz) - 质量评分: 55.7
+2026-02-08 17:22:42 - WiFiTest - INFO - Recommendation analysis started with 50 test sets per channel
+2026-02-08 17:22:42 - WiFiTest - INFO - Recommendation completed: 推荐信道: 10 (2.4GHz) - 质量评分: 55.9
+2026-02-08 17:22:43 - WiFiTest - INFO - Recommendation analysis started with 50 test sets per channel
+2026-02-08 17:22:43 - WiFiTest - INFO - Recommendation completed: 推荐信道: 4 (2.4GHz) - 质量评分: 56.0
+2026-02-08 17:22:43 - WiFiTest - INFO - Recommendation analysis started with 50 test sets per channel
+2026-02-08 17:22:44 - WiFiTest - INFO - Recommendation completed: 推荐信道: 4 (2.4GHz) - 质量评分: 55.1
+2026-02-08 17:22:44 - WiFiTest - INFO - Recommendation analysis started with 50 test sets per channel
+2026-02-08 17:22:44 - WiFiTest - INFO - Recommendation completed: 推荐信道: 4 (2.4GHz) - 质量评分: 55.7
+2026-02-08 17:22:55 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:22:55 - WiFiTest - INFO - Band switched to 5GHz
+2026-02-08 17:22:56 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:22:56 - WiFiTest - INFO - Recommendation analysis started with 50 test sets per channel
+2026-02-08 17:22:57 - WiFiTest - INFO - Recommendation completed: 推荐信道: 116 (5GHz) - 质量评分: 71.7
+2026-02-08 17:23:06 - WiFiTest - INFO - Recommendation analysis started with 50 test sets per channel
+2026-02-08 17:23:06 - WiFiTest - INFO - Recommendation completed: 推荐信道: 116 (5GHz) - 质量评分: 71.0
+2026-02-08 17:23:12 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:23:12 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:23:21 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:23:22 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:23:22 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:23:22 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:23:22 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:23:23 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:23:23 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:23:23 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:23:24 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:23:24 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:23:24 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:23:25 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:23:25 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:23:25 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:23:26 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:23:26 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:23:26 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:23:26 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:23:27 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:23:27 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:23:27 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:23:28 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:23:28 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:23:28 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:23:28 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:23:29 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:23:29 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:23:29 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:23:30 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:23:30 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:23:30 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:23:31 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:23:31 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:23:31 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:23:32 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:23:32 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:23:32 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:23:33 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:23:34 - WiFiTest - INFO - Recommendation analysis started with 50 test sets per channel
+2026-02-08 17:23:34 - WiFiTest - INFO - Recommendation completed: 推荐信道: 120 (5GHz) - 质量评分: 71.1
+2026-02-08 17:23:35 - WiFiTest - INFO - Recommendation analysis started with 50 test sets per channel
+2026-02-08 17:23:36 - WiFiTest - INFO - Recommendation completed: 推荐信道: 120 (5GHz) - 质量评分: 71.2
+2026-02-08 17:23:36 - WiFiTest - INFO - Recommendation analysis started with 50 test sets per channel
+2026-02-08 17:23:36 - WiFiTest - INFO - Recommendation completed: 推荐信道: 112 (5GHz) - 质量评分: 71.0
+2026-02-08 17:27:17 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 17:27:18 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 17:27:18 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 17:27:18 - WiFiTest - INFO - Main window initialized
+2026-02-08 17:27:18 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 17:28:18 - WiFiTest - DEBUG - Config updated: wifi.test_count = 200
+2026-02-08 17:28:18 - WiFiTest - INFO - Configuration saved successfully
+2026-02-08 17:28:18 - WiFiTest - INFO - Test count updated to 200
+2026-02-08 17:28:20 - WiFiTest - INFO - Channel scan started for 2.4GHz
+2026-02-08 17:28:20 - WiFiTest - INFO - Channel scan started, waiting for completion
+2026-02-08 17:28:21 - WiFiTest - INFO - Auto analysis started after channel scan completion
+2026-02-08 17:28:21 - WiFiTest - INFO - Channel analysis completed for 2.4GHz: 14 channels
+2026-02-08 17:28:21 - WiFiTest - INFO - Recommendation completed: 推荐信道: 10 (2.4GHz) - 质量评分: 58.4
+2026-02-08 17:28:38 - WiFiTest - INFO - Recommendation analysis started with 200 test sets per channel
+2026-02-08 17:28:38 - WiFiTest - INFO - Recommendation completed: 推荐信道: 10 (2.4GHz) - 质量评分: 58.2
+2026-02-08 17:28:39 - WiFiTest - INFO - Recommendation analysis started with 200 test sets per channel
+2026-02-08 17:28:39 - WiFiTest - INFO - Recommendation completed: 推荐信道: 10 (2.4GHz) - 质量评分: 58.4
+2026-02-08 17:28:40 - WiFiTest - INFO - Recommendation analysis started with 200 test sets per channel
+2026-02-08 17:28:40 - WiFiTest - INFO - Recommendation completed: 推荐信道: 10 (2.4GHz) - 质量评分: 58.4
+2026-02-08 17:28:41 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:28:41 - WiFiTest - INFO - Band switched to 5GHz
+2026-02-08 17:28:41 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:28:42 - WiFiTest - INFO - Recommendation analysis started with 200 test sets per channel
+2026-02-08 17:28:42 - WiFiTest - INFO - Recommendation completed: 推荐信道: 120 (5GHz) - 质量评分: 70.7
+2026-02-08 17:28:43 - WiFiTest - INFO - Recommendation analysis started with 200 test sets per channel
+2026-02-08 17:28:43 - WiFiTest - INFO - Recommendation completed: 推荐信道: 120 (5GHz) - 质量评分: 70.5
+2026-02-08 17:28:45 - WiFiTest - INFO - Recommendation analysis started with 200 test sets per channel
+2026-02-08 17:28:45 - WiFiTest - INFO - Recommendation completed: 推荐信道: 120 (5GHz) - 质量评分: 70.3
+2026-02-08 17:28:48 - WiFiTest - INFO - Recommendation analysis started with 200 test sets per channel
+2026-02-08 17:28:48 - WiFiTest - INFO - Recommendation completed: 推荐信道: 120 (5GHz) - 质量评分: 70.7
+2026-02-08 17:28:57 - WiFiTest - INFO - Recommendation analysis started with 200 test sets per channel
+2026-02-08 17:28:57 - WiFiTest - INFO - Recommendation completed: 推荐信道: 120 (5GHz) - 质量评分: 70.4
+2026-02-08 17:28:58 - WiFiTest - INFO - Recommendation analysis started with 200 test sets per channel
+2026-02-08 17:28:58 - WiFiTest - INFO - Recommendation completed: 推荐信道: 120 (5GHz) - 质量评分: 70.7
+2026-02-08 17:28:58 - WiFiTest - INFO - Recommendation analysis started with 200 test sets per channel
+2026-02-08 17:28:58 - WiFiTest - INFO - Recommendation completed: 推荐信道: 120 (5GHz) - 质量评分: 70.5
+2026-02-08 17:28:59 - WiFiTest - INFO - Recommendation analysis started with 200 test sets per channel
+2026-02-08 17:28:59 - WiFiTest - INFO - Recommendation completed: 推荐信道: 120 (5GHz) - 质量评分: 70.8
+2026-02-08 17:29:00 - WiFiTest - INFO - Recommendation analysis started with 200 test sets per channel
+2026-02-08 17:29:00 - WiFiTest - INFO - Recommendation completed: 推荐信道: 120 (5GHz) - 质量评分: 70.6
+2026-02-08 17:29:01 - WiFiTest - INFO - Recommendation analysis started with 200 test sets per channel
+2026-02-08 17:29:01 - WiFiTest - INFO - Recommendation completed: 推荐信道: 120 (5GHz) - 质量评分: 70.8
+2026-02-08 17:29:01 - WiFiTest - INFO - Recommendation analysis started with 200 test sets per channel
+2026-02-08 17:29:01 - WiFiTest - INFO - Recommendation completed: 推荐信道: 120 (5GHz) - 质量评分: 70.4
+2026-02-08 17:29:07 - WiFiTest - DEBUG - Config updated: wifi.test_count = 499
+2026-02-08 17:29:07 - WiFiTest - INFO - Configuration saved successfully
+2026-02-08 17:29:07 - WiFiTest - INFO - Test count updated to 499
+2026-02-08 17:29:08 - WiFiTest - INFO - Recommendation analysis started with 499 test sets per channel
+2026-02-08 17:29:09 - WiFiTest - INFO - Recommendation completed: 推荐信道: 120 (5GHz) - 质量评分: 70.5
+2026-02-08 17:29:10 - WiFiTest - INFO - Recommendation analysis started with 499 test sets per channel
+2026-02-08 17:29:10 - WiFiTest - INFO - Recommendation completed: 推荐信道: 120 (5GHz) - 质量评分: 70.6
+2026-02-08 17:29:38 - WiFiTest - INFO - Recommendation analysis started with 499 test sets per channel
+2026-02-08 17:29:39 - WiFiTest - INFO - Recommendation completed: 推荐信道: 120 (5GHz) - 质量评分: 70.6
+2026-02-08 17:29:39 - WiFiTest - INFO - Recommendation analysis started with 499 test sets per channel
+2026-02-08 17:29:39 - WiFiTest - INFO - Recommendation completed: 推荐信道: 120 (5GHz) - 质量评分: 70.6
+2026-02-08 17:29:46 - WiFiTest - DEBUG - Config updated: wifi.test_count = 1000
+2026-02-08 17:29:46 - WiFiTest - INFO - Configuration saved successfully
+2026-02-08 17:29:46 - WiFiTest - INFO - Test count updated to 1000
+2026-02-08 17:29:47 - WiFiTest - INFO - Recommendation analysis started with 1000 test sets per channel
+2026-02-08 17:29:48 - WiFiTest - INFO - Recommendation completed: 推荐信道: 120 (5GHz) - 质量评分: 70.8
+2026-02-08 17:29:54 - WiFiTest - INFO - Recommendation analysis started with 1000 test sets per channel
+2026-02-08 17:29:54 - WiFiTest - INFO - Recommendation completed: 推荐信道: 120 (5GHz) - 质量评分: 70.7
+2026-02-08 17:29:57 - WiFiTest - INFO - Channel scan started for 2.4GHz
+2026-02-08 17:29:57 - WiFiTest - INFO - Band switched to 2.4GHz
+2026-02-08 17:29:57 - WiFiTest - INFO - Channel analysis completed for 2.4GHz: 14 channels
+2026-02-08 17:29:58 - WiFiTest - INFO - Recommendation analysis started with 1000 test sets per channel
+2026-02-08 17:29:58 - WiFiTest - INFO - Recommendation completed: 推荐信道: 10 (2.4GHz) - 质量评分: 54.3
+2026-02-08 17:30:02 - WiFiTest - INFO - Recommendation analysis started with 1000 test sets per channel
+2026-02-08 17:30:02 - WiFiTest - INFO - Recommendation completed: 推荐信道: 10 (2.4GHz) - 质量评分: 54.3
+2026-02-08 17:30:22 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:30:22 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:30:23 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:30:23 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:30:34 - WiFiTest - INFO - Recommendation analysis started with 1000 test sets per channel
+2026-02-08 17:30:34 - WiFiTest - INFO - Recommendation completed: 推荐信道: 52 (5GHz) - 质量评分: 71.9
+2026-02-08 17:31:01 - WiFiTest - INFO - Application closed by user
+2026-02-08 17:31:05 - WiFiTest - INFO - Application closed by user
+2026-02-08 17:34:07 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 17:34:08 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 17:34:08 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 17:34:08 - WiFiTest - INFO - Main window initialized
+2026-02-08 17:34:08 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 17:34:50 - WiFiTest - INFO - Channel scan started for 2.4GHz
+2026-02-08 17:34:50 - WiFiTest - INFO - Channel scan started, waiting for completion
+2026-02-08 17:34:50 - WiFiTest - INFO - Auto analysis started after channel scan completion
+2026-02-08 17:34:50 - WiFiTest - INFO - Channel analysis completed for 2.4GHz: 14 channels
+2026-02-08 17:34:51 - WiFiTest - INFO - Recommendation completed: 推荐信道: 10 (2.4GHz) - 质量评分: 57.1
+2026-02-08 17:35:10 - WiFiTest - INFO - Application closed by user
+2026-02-08 17:39:06 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 17:39:07 - WiFiTest - ERROR - Failed to start application: arguments did not match any overloaded call:
+  setStretchFactor(self, w: Optional[QWidget], stretch: int): argument 1 has unexpected type 'int'
+  setStretchFactor(self, l: Optional[QLayout], stretch: int): argument 1 has unexpected type 'int'
+Traceback (most recent call last):
+  File "H:\d\kotlin\wifiTest\main.py", line 21, in main
+    window = MainWindow()
+             ^^^^^^^^^^^^
+  File "H:\d\kotlin\wifiTest\src\ui\main_window.py", line 16, in __init__
+    self._setup_ui()
+  File "H:\d\kotlin\wifiTest\src\ui\main_window.py", line 28, in _setup_ui
+    self._create_central_widget()
+  File "H:\d\kotlin\wifiTest\src\ui\main_window.py", line 69, in _create_central_widget
+    self.channel_analysis_panel = ChannelAnalysisPanel()
+                                  ^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\d\kotlin\wifiTest\src\ui\channel_analysis_panel.py", line 161, in __init__
+    self._setup_ui()
+  File "H:\d\kotlin\wifiTest\src\ui\channel_analysis_panel.py", line 179, in _setup_ui
+    layout.setStretchFactor(1, 1)  # 图表区域可伸缩
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: arguments did not match any overloaded call:
+  setStretchFactor(self, w: Optional[QWidget], stretch: int): argument 1 has unexpected type 'int'
+  setStretchFactor(self, l: Optional[QLayout], stretch: int): argument 1 has unexpected type 'int'
+2026-02-08 17:39:44 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 17:39:45 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 17:39:45 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 17:39:45 - WiFiTest - INFO - Main window initialized
+2026-02-08 17:39:45 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 17:39:54 - WiFiTest - INFO - Channel scan started for 2.4GHz
+2026-02-08 17:39:54 - WiFiTest - INFO - Channel scan started, waiting for completion
+2026-02-08 17:39:54 - WiFiTest - INFO - Auto analysis started after channel scan completion
+2026-02-08 17:39:54 - WiFiTest - INFO - Channel analysis completed for 2.4GHz: 14 channels
+2026-02-08 17:39:54 - WiFiTest - INFO - Recommendation completed: 推荐信道: 6 (2.4GHz) - 质量评分: 58.2
+2026-02-08 17:40:10 - WiFiTest - INFO - Application closed by user
+2026-02-08 17:40:19 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 17:40:20 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 17:40:20 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 17:40:20 - WiFiTest - INFO - Main window initialized
+2026-02-08 17:40:20 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 17:40:22 - WiFiTest - ERROR - Uncaught exception: ValueError: figure size must be positive finite not [11.96 -0.16]
+Traceback (most recent call last):
+  File "H:\d\kotlin\wifiTest\.venv\Lib\site-packages\matplotlib\backends\backend_qt.py", line 401, in resizeEvent
+    self.figure.set_size_inches(winch, hinch, forward=False)
+  File "H:\d\kotlin\wifiTest\.venv\Lib\site-packages\matplotlib\figure.py", line 3142, in set_size_inches
+    raise ValueError(f'figure size must be positive finite not {size}')
+ValueError: figure size must be positive finite not [11.96 -0.16]
+2026-02-08 17:40:22 - WiFiTest - ERROR - Exception occurred: ValueError: figure size must be positive finite not [11.96 -0.16]
+NoneType: None
+2026-02-08 17:40:34 - WiFiTest - INFO - Channel scan started for 2.4GHz
+2026-02-08 17:40:34 - WiFiTest - INFO - Channel scan started, waiting for completion
+2026-02-08 17:40:35 - WiFiTest - INFO - Auto analysis started after channel scan completion
+2026-02-08 17:40:35 - WiFiTest - INFO - Channel analysis completed for 2.4GHz: 14 channels
+2026-02-08 17:40:35 - WiFiTest - INFO - Recommendation completed: 推荐信道: 13 (2.4GHz) - 质量评分: 56.9
+2026-02-08 17:40:52 - WiFiTest - INFO - Recommendation analysis started with 1000 test sets per channel
+2026-02-08 17:40:53 - WiFiTest - INFO - Recommendation completed: 推荐信道: 13 (2.4GHz) - 质量评分: 56.9
+2026-02-08 17:40:59 - WiFiTest - ERROR - Failed to apply recommendation: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "H:\d\kotlin\wifiTest\src\ui\recommend_panel.py", line 1094, in _apply_recommendation
+    if '管理员' not in result.stdout and 'Administrator' not in result.stdout:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2026-02-08 17:40:59 - WiFiTest - WARNING - Warning: 应用失败 - 无法应用推荐：argument of type 'NoneType' is not iterable
+2026-02-08 17:41:11 - WiFiTest - INFO - Application closed by user
+2026-02-08 17:42:52 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 17:42:53 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 17:42:53 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 17:42:53 - WiFiTest - INFO - Main window initialized
+2026-02-08 17:42:53 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 17:45:08 - WiFiTest - INFO - Channel scan started for 2.4GHz
+2026-02-08 17:45:08 - WiFiTest - INFO - Channel scan started, waiting for completion
+2026-02-08 17:45:09 - WiFiTest - INFO - Auto analysis started after channel scan completion
+2026-02-08 17:45:09 - WiFiTest - INFO - Channel analysis completed for 2.4GHz: 14 channels
+2026-02-08 17:45:09 - WiFiTest - INFO - Recommendation completed: 推荐信道: 9 (2.4GHz) - 质量评分: 58.3
+2026-02-08 17:45:13 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 17:45:13 - WiFiTest - INFO - Band switched to 5GHz
+2026-02-08 17:45:13 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 17:45:13 - WiFiTest - INFO - Recommendation analysis started with 1000 test sets per channel
+2026-02-08 17:45:14 - WiFiTest - INFO - Recommendation completed: 推荐信道: 60 (5GHz) - 质量评分: 71.4
+2026-02-08 17:45:16 - WiFiTest - INFO - Recommendation analysis started with 1000 test sets per channel
+2026-02-08 17:45:16 - WiFiTest - INFO - Recommendation completed: 推荐信道: 60 (5GHz) - 质量评分: 71.4
+2026-02-08 17:45:18 - WiFiTest - WARNING - Warning: 权限不足 - 需要管理员权限才能更改信道设置。
+请以管理员身份运行程序，然后重试。
+2026-02-08 17:45:33 - WiFiTest - INFO - Application closed by user
+2026-02-08 17:47:12 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 17:47:13 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 17:47:13 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 17:47:13 - WiFiTest - INFO - Main window initialized
+2026-02-08 17:47:14 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 17:47:48 - WiFiTest - INFO - Application closed by user
+2026-02-08 17:47:52 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 17:47:53 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 17:47:53 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 17:47:53 - WiFiTest - INFO - Main window initialized
+2026-02-08 17:47:53 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 17:47:55 - WiFiTest - INFO - Channel scan started for 2.4GHz
+2026-02-08 17:47:56 - WiFiTest - INFO - Channel analysis completed for 2.4GHz: 14 channels
+2026-02-08 17:48:00 - WiFiTest - INFO - Application closed by user
