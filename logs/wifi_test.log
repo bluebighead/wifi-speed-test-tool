@@ -1400,3 +1400,131 @@ TypeError: argument of type 'NoneType' is not iterable
 2026-02-08 17:47:55 - WiFiTest - INFO - Channel scan started for 2.4GHz
 2026-02-08 17:47:56 - WiFiTest - INFO - Channel analysis completed for 2.4GHz: 14 channels
 2026-02-08 17:48:00 - WiFiTest - INFO - Application closed by user
+2026-02-08 18:16:37 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 18:16:38 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 18:16:38 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 18:16:38 - WiFiTest - INFO - Main window initialized
+2026-02-08 18:16:38 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 18:18:01 - WiFiTest - INFO - Channel scan started for 2.4GHz
+2026-02-08 18:18:01 - WiFiTest - INFO - Channel scan started, waiting for completion
+2026-02-08 18:18:01 - WiFiTest - INFO - Auto analysis started after channel scan completion
+2026-02-08 18:18:01 - WiFiTest - INFO - Channel analysis completed for 2.4GHz: 14 channels
+2026-02-08 18:18:01 - WiFiTest - INFO - Recommendation completed: 推荐信道: 12 (2.4GHz) - 质量评分: 55.0
+2026-02-08 18:42:10 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 18:42:32 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 18:42:50 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 18:42:50 - WiFiTest - ERROR - Failed to start application: setWeight(self, a0: int): argument 1 has unexpected type 'str'
+Traceback (most recent call last):
+  File "H:\d\kotlin\wifiTest\main.py", line 21, in main
+    window = MainWindow()
+             ^^^^^^^^^^^^
+  File "H:\d\kotlin\wifiTest\src\ui\main_window.py", line 17, in __init__
+    self._setup_ui()
+  File "H:\d\kotlin\wifiTest\src\ui\main_window.py", line 29, in _setup_ui
+    self._create_central_widget()
+  File "H:\d\kotlin\wifiTest\src\ui\main_window.py", line 120, in _create_central_widget
+    self.channel_analysis_panel = ChannelAnalysisPanel()
+                                  ^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\d\kotlin\wifiTest\src\ui\channel_analysis_panel.py", line 183, in __init__
+    self._setup_ui()
+  File "H:\d\kotlin\wifiTest\src\ui\channel_analysis_panel.py", line 194, in _setup_ui
+    self._create_control_section(layout)
+  File "H:\d\kotlin\wifiTest\src\ui\channel_analysis_panel.py", line 235, in _create_control_section
+    title_label.setFont(UIStyles.get_font('h3', 'bold'))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "H:\d\kotlin\wifiTest\src\ui\ui_styles.py", line 654, in get_font
+    font.setWeight(font_weight)
+TypeError: setWeight(self, a0: int): argument 1 has unexpected type 'str'
+2026-02-08 19:13:58 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 19:14:00 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 19:14:00 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 19:14:00 - WiFiTest - INFO - Main window initialized
+2026-02-08 19:14:00 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 19:18:38 - WiFiTest - INFO - Application closed by user
+2026-02-08 19:18:42 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 19:18:43 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 19:18:43 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 19:18:43 - WiFiTest - INFO - Main window initialized
+2026-02-08 19:18:44 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 19:18:56 - WiFiTest - INFO - Application closed by user
+2026-02-08 19:29:28 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 19:29:57 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 19:29:57 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 19:29:57 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 19:29:57 - WiFiTest - INFO - Minimal main window initialized
+2026-02-08 19:29:58 - WiFiTest - INFO - Minimal UI test started successfully
+2026-02-08 19:32:43 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 19:32:44 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 19:32:44 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 19:32:44 - WiFiTest - INFO - Main window initialized
+2026-02-08 19:32:45 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 19:32:50 - WiFiTest - INFO - Application closed by user
+2026-02-08 19:46:21 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 19:46:22 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 19:46:22 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 19:46:22 - WiFiTest - INFO - Minimal main window initialized
+2026-02-08 19:46:23 - WiFiTest - INFO - Minimal UI test started successfully
+2026-02-08 19:49:20 - WiFiTest - INFO - Application closed by user
+2026-02-08 19:51:02 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 19:51:03 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 19:51:03 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 19:51:03 - WiFiTest - INFO - Main window initialized
+2026-02-08 19:51:03 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 19:51:08 - WiFiTest - INFO - Application closed by user
+2026-02-08 19:51:44 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 19:51:45 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 19:51:45 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 19:51:45 - WiFiTest - INFO - Main window initialized
+2026-02-08 19:51:46 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 19:51:57 - WiFiTest - INFO - Application closed by user
+2026-02-08 20:11:25 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 20:11:26 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 20:11:26 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 20:11:26 - WiFiTest - INFO - Main window initialized
+2026-02-08 20:11:27 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 20:11:29 - WiFiTest - INFO - Application closed by user
+2026-02-08 20:13:04 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 20:13:30 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 20:16:36 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 20:19:52 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 20:20:27 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 20:20:29 - WiFiTest - INFO - Minimal channel analysis panel initialized
+2026-02-08 20:20:57 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 20:20:59 - WiFiTest - INFO - Minimal channel analysis panel initialized
+2026-02-08 20:20:59 - WiFiTest - INFO - Minimal recommend panel initialized
+2026-02-08 20:20:59 - WiFiTest - INFO - Minimal main window initialized
+2026-02-08 20:20:59 - WiFiTest - INFO - Minimal UI test started successfully
+2026-02-08 20:34:26 - WiFiTest - INFO - Application closed by user
+2026-02-08 20:42:18 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 20:42:19 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 20:42:19 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 20:42:19 - WiFiTest - INFO - Main window initialized
+2026-02-08 20:42:19 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 20:44:22 - WiFiTest - INFO - Application closed by user
+2026-02-08 20:47:31 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 20:47:32 - WiFiTest - INFO - Minimal channel analysis panel initialized
+2026-02-08 20:47:33 - WiFiTest - INFO - Minimal recommend panel initialized
+2026-02-08 20:47:33 - WiFiTest - INFO - Minimal main window initialized
+2026-02-08 20:47:33 - WiFiTest - INFO - Minimal UI test started successfully
+2026-02-08 20:51:02 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 20:51:03 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 20:51:03 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 20:51:03 - WiFiTest - INFO - Main window initialized
+2026-02-08 20:51:03 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 20:51:07 - WiFiTest - INFO - Application closed by user
+2026-02-08 20:51:39 - WiFiTest - INFO - Configuration loaded successfully
+2026-02-08 20:51:39 - WiFiTest - INFO - Channel analysis panel initialized
+2026-02-08 20:51:39 - WiFiTest - INFO - Recommend panel initialized
+2026-02-08 20:51:39 - WiFiTest - INFO - Main window initialized
+2026-02-08 20:51:40 - WiFiTest - INFO - WiFi Speed Test started successfully
+2026-02-08 20:51:47 - WiFiTest - INFO - Channel scan started for 2.4GHz
+2026-02-08 20:51:47 - WiFiTest - INFO - Channel scan started, waiting for completion
+2026-02-08 20:51:48 - WiFiTest - INFO - Auto analysis started after channel scan completion
+2026-02-08 20:51:48 - WiFiTest - INFO - Channel analysis completed for 2.4GHz: 14 channels
+2026-02-08 20:51:48 - WiFiTest - INFO - Recommendation completed: 推荐信道: 1 (2.4GHz) - 质量评分: 56.3
+2026-02-08 20:51:55 - WiFiTest - INFO - Channel scan started for 5GHz
+2026-02-08 20:51:55 - WiFiTest - INFO - Band switched to 5GHz
+2026-02-08 20:51:56 - WiFiTest - INFO - Channel analysis completed for 5GHz: 25 channels
+2026-02-08 20:51:56 - WiFiTest - INFO - Recommendation analysis started with 1000 test sets per channel
+2026-02-08 20:51:57 - WiFiTest - INFO - Recommendation completed: 推荐信道: 108 (5GHz) - 质量评分: 72.3
+2026-02-08 20:52:07 - WiFiTest - INFO - Application closed by user

@@ -1,9 +1,9 @@
 from PyQt5.QtWidgets import (QWidget, QVBoxLayout, QHBoxLayout, QPushButton, 
                              QLabel, QComboBox, QGroupBox, QGridLayout,
                              QTableWidget, QTableWidgetItem, QHeaderView, QSplitter,
-                             QCheckBox, QFrame)
+                             QCheckBox)  # 添加QCheckBox
 from PyQt5.QtCore import Qt, pyqtSignal, QThread, QTimer
-from PyQt5.QtGui import QFont, QColor
+from PyQt5.QtGui import QFont
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.figure import Figure
 import matplotlib.pyplot as plt
@@ -11,8 +11,6 @@ from src.utils.logger import logger
 from src.utils.exception_handler import exception_handler, handle_exceptions
 from src.services.config_service import config_service
 from src.models.data_models import ChannelInfo
-from src.ui.ui_styles import UIStyles
-from src.ui.animations import AnimationHelper
 import random
 
 
@@ -108,9 +106,8 @@ class ChannelAnalysisWorker(QThread):
 
 
 class ChannelChartWidget(FigureCanvas):
-    def __init__(self, parent=None, width=10, height=5, dpi=100):
+    def __init__(self, parent=None, width=5, height=4, dpi=100):
         self.fig = Figure(figsize=(width, height), dpi=dpi)
-        self.fig.patch.set_facecolor('#F5F5F5')
         self.axes = self.fig.add_subplot(111)
         super().__init__(self.fig)
         self.setParent(parent)
@@ -132,35 +129,18 @@ class ChannelChartWidget(FigureCanvas):
         width = 0.35
         
         bars1 = self.axes.bar([i - width/2 for i in x], occupancies, width, 
-                             label='占用率 (%)', color=UIStyles.COLORS['primary'], alpha=0.85, edgecolor=UIStyles.COLORS['primary_dark'], linewidth=1.5)
+                             label='占用率 (%)', color='#3498db', alpha=0.7)
         bars2 = self.axes.bar([i + width/2 for i in x], interferences, width, 
-                             label='干扰 (%)', color=UIStyles.COLORS['error'], alpha=0.85, edgecolor=UIStyles.COLORS['error_dark'], linewidth=1.5)
+                             label='干扰 (%)', color='#e74c3c', alpha=0.7)
         
-        self.axes.set_xlabel('信道', fontsize=13, fontweight='bold', color=UIStyles.COLORS['text_primary'])
-        self.axes.set_ylabel('百分比 (%)', fontsize=13, fontweight='bold', color=UIStyles.COLORS['text_primary'])
-        self.axes.set_title('信道占用与干扰分析', fontsize=15, fontweight='bold', color=UIStyles.COLORS['text_primary'], pad=20)
+        self.axes.set_xlabel('信道')
+        self.axes.set_ylabel('百分比 (%)')
+        self.axes.set_title('信道占用与干扰分析')
         self.axes.set_xticks(x)
-        self.axes.set_xticklabels(channel_nums, rotation=45, ha='right', fontsize=11)
-        self.axes.legend(loc='upper right', fontsize=11, framealpha=0.95, fancybox=True, shadow=True)
-        self.axes.grid(True, alpha=0.25, linestyle='--', linewidth=0.5, color=UIStyles.COLORS['divider'])
+        self.axes.set_xticklabels(channel_nums, rotation=45, ha='right')
+        self.axes.legend()
+        self.axes.grid(True, alpha=0.3)
         self.axes.set_ylim(0, 100)
-        self.axes.set_facecolor('#FFFFFF')
-        
-        for spine in self.axes.spines.values():
-            spine.set_color(UIStyles.COLORS['border'])
-            spine.set_linewidth(1.2)
-        
-        for bar in bars1:
-            height = bar.get_height()
-            self.axes.text(bar.get_x() + bar.get_width()/2., height,
-                          f'{height:.1f}',
-                          ha='center', va='bottom', fontsize=8, color=UIStyles.COLORS['text_primary'])
-        
-        for bar in bars2:
-            height = bar.get_height()
-            self.axes.text(bar.get_x() + bar.get_width()/2., height,
-                          f'{height:.1f}',
-                          ha='center', va='bottom', fontsize=8, color=UIStyles.COLORS['text_primary'])
         
         self.fig.tight_layout()
         self.draw()
@@ -172,99 +152,65 @@ class ChannelChartWidget(FigureCanvas):
 
 class ChannelAnalysisPanel(QWidget):
     analysis_completed = pyqtSignal(str)
-    scan_completed = pyqtSignal()
     
     def __init__(self):
         super().__init__()
         self._worker = None
         self._current_band = "2.4GHz"
         self._channels = []
-        self._animation_helper = AnimationHelper(self)
         self._setup_ui()
         self._setup_timer()
-        self._apply_styles()
         logger.info("Channel analysis panel initialized")
     
     def _setup_ui(self):
         layout = QVBoxLayout(self)
-        layout.setContentsMargins(UIStyles.SPACING['lg'], UIStyles.SPACING['lg'], 
-                                UIStyles.SPACING['lg'], UIStyles.SPACING['lg'])
-        layout.setSpacing(UIStyles.SPACING['md'])
+        layout.setContentsMargins(20, 20, 20, 20)
+        layout.setSpacing(20)
         
         self._create_control_section(layout)
         
         splitter = QSplitter(Qt.Vertical)
-        splitter.setHandleWidth(10)
+        
+        # 设置分割器属性
+        splitter.setHandleWidth(8)
         splitter.setOpaqueResize(True)
-        splitter.setStyleSheet(f"""
-            QSplitter::handle {{
-                background-color: {UIStyles.COLORS['border']};
-            }}
-            QSplitter::handle:hover {{
-                background-color: {UIStyles.COLORS['primary']};
-            }}
-        """)
         
         chart_widget = self._create_chart_section()
         table_widget = self._create_table_section()
         
         splitter.addWidget(chart_widget)
         splitter.addWidget(table_widget)
-        splitter.setSizes([450, 350])
+        
+        # 设置分割器的初始大小
+        splitter.setSizes([400, 300])
+        
+        # 设置伸缩因子
         splitter.setStretchFactor(0, 1)
         splitter.setStretchFactor(1, 1)
         
         layout.addWidget(splitter)
     
     def _create_control_section(self, parent_layout):
-        control_frame = QFrame()
-        control_frame.setStyleSheet(f"""
-            QFrame {{
-                background-color: {UIStyles.COLORS['surface']};
-                border-radius: {UIStyles.RADIUS['lg']}px;
-                border: 1px solid {UIStyles.COLORS['border']};
-                padding: {UIStyles.SPACING['md']}px;
-            }}
-        """)
-        control_layout = QHBoxLayout(control_frame)
-        control_layout.setContentsMargins(UIStyles.SPACING['md'], UIStyles.SPACING['md'], 
-                                          UIStyles.SPACING['md'], UIStyles.SPACING['md'])
-        control_layout.setSpacing(UIStyles.SPACING['md'])
-        
-        title_label = QLabel("信道分析控制")
-        title_label.setFont(UIStyles.get_font('h3', 'bold'))
-        title_label.setStyleSheet(f"color: {UIStyles.COLORS['text_primary']};")
-        
-        control_layout.addWidget(title_label)
-        
-        line = QFrame()
-        line.setFrameShape(QFrame.VLine)
-        line.setFrameShadow(QFrame.Sunken)
-        line.setStyleSheet(f"background-color: {UIStyles.COLORS['border']}; max-width: 1px;")
-        control_layout.addWidget(line)
+        control_group = QGroupBox("控制面板")
+        control_layout = QHBoxLayout(control_group)
         
         band_label = QLabel("频段:")
-        band_label.setFont(UIStyles.get_font('body'))
-        band_label.setStyleSheet(f"color: {UIStyles.COLORS['text_primary']};")
+        band_label.setFont(QFont("Arial", 10))
         
         self.band_combo = QComboBox()
         self.band_combo.addItems(["2.4GHz", "5GHz"])
         self.band_combo.setCurrentText(self._current_band)
         self.band_combo.currentTextChanged.connect(self._on_band_changed)
-        UIStyles.apply_stylesheet(self.band_combo, 'input')
         
         self.scan_button = QPushButton("扫描信道")
-        self.scan_button.setMinimumHeight(44)
-        self.scan_button.setFont(UIStyles.get_font('body', 'bold'))
+        self.scan_button.setMinimumHeight(40)
+        self.scan_button.setFont(QFont("Arial", 10))
         self.scan_button.clicked.connect(self._start_scan)
-        self.scan_button.setCursor(Qt.PointingHandCursor)
-        UIStyles.apply_stylesheet(self.scan_button, 'button_primary')
         
+        # 添加自动刷新复选框
         self.auto_refresh_check = QCheckBox("自动刷新")
         self.auto_refresh_check.setToolTip("启用实时信道检测")
         self.auto_refresh_check.stateChanged.connect(self._on_auto_refresh_toggled)
-        self.auto_refresh_check.setFont(UIStyles.get_font('body'))
-        UIStyles.apply_stylesheet(self.auto_refresh_check, 'checkbox')
         
         control_layout.addWidget(band_label)
         control_layout.addWidget(self.band_combo)
@@ -272,52 +218,20 @@ class ChannelAnalysisPanel(QWidget):
         control_layout.addStretch()
         control_layout.addWidget(self.auto_refresh_check)
         
-        parent_layout.addWidget(control_frame)
+        parent_layout.addWidget(control_group)
     
     def _create_chart_section(self) -> QWidget:
-        chart_frame = QFrame()
-        chart_frame.setStyleSheet(f"""
-            QFrame {{
-                background-color: {UIStyles.COLORS['surface']};
-                border-radius: {UIStyles.RADIUS['lg']}px;
-                border: 1px solid {UIStyles.COLORS['border']};
-                padding: {UIStyles.SPACING['lg']}px;
-            }}
-        """)
-        chart_layout = QVBoxLayout(chart_frame)
-        chart_layout.setContentsMargins(UIStyles.SPACING['lg'], UIStyles.SPACING['lg'], 
-                                        UIStyles.SPACING['lg'], UIStyles.SPACING['lg'])
-        chart_layout.setSpacing(UIStyles.SPACING['md'])
-        
-        title_label = QLabel("信道占用图表")
-        title_label.setFont(UIStyles.get_font('h3', 'bold'))
-        title_label.setStyleSheet(f"color: {UIStyles.COLORS['text_primary']};")
-        chart_layout.addWidget(title_label)
+        chart_group = QGroupBox("信道占用图表")
+        chart_layout = QVBoxLayout(chart_group)
         
         self.chart_widget = ChannelChartWidget(self, width=10, height=5, dpi=100)
         chart_layout.addWidget(self.chart_widget)
         
-        return chart_frame
+        return chart_group
     
     def _create_table_section(self) -> QWidget:
-        table_frame = QFrame()
-        table_frame.setStyleSheet(f"""
-            QFrame {{
-                background-color: {UIStyles.COLORS['surface']};
-                border-radius: {UIStyles.RADIUS['lg']}px;
-                border: 1px solid {UIStyles.COLORS['border']};
-                padding: {UIStyles.SPACING['lg']}px;
-            }}
-        """)
-        table_layout = QVBoxLayout(table_frame)
-        table_layout.setContentsMargins(UIStyles.SPACING['lg'], UIStyles.SPACING['lg'], 
-                                       UIStyles.SPACING['lg'], UIStyles.SPACING['lg'])
-        table_layout.setSpacing(UIStyles.SPACING['md'])
-        
-        title_label = QLabel("信道详情")
-        title_label.setFont(UIStyles.get_font('h3', 'bold'))
-        title_label.setStyleSheet(f"color: {UIStyles.COLORS['text_primary']};")
-        table_layout.addWidget(title_label)
+        table_group = QGroupBox("信道详情")
+        table_layout = QVBoxLayout(table_group)
         
         self.channel_table = QTableWidget()
         self.channel_table.setColumnCount(6)
@@ -327,26 +241,15 @@ class ChannelAnalysisPanel(QWidget):
         self.channel_table.horizontalHeader().setSectionResizeMode(QHeaderView.Stretch)
         self.channel_table.setAlternatingRowColors(True)
         self.channel_table.setSelectionBehavior(QTableWidget.SelectRows)
-        self.channel_table.setShowGrid(False)
-        self.channel_table.verticalHeader().setVisible(False)
-        UIStyles.apply_stylesheet(self.channel_table, 'table')
         
         table_layout.addWidget(self.channel_table)
         
-        return table_frame
+        return table_group
     
     def _setup_timer(self):
         self._refresh_timer = QTimer()
         self._refresh_timer.timeout.connect(self._auto_refresh)
         self._auto_refresh_enabled = False
-    
-    def _apply_styles(self):
-        """应用面板样式"""
-        self.setStyleSheet(f"""
-            QWidget {{
-                background-color: {UIStyles.COLORS['background']};
-            }}
-        """)
     
     @handle_exceptions(show_dialog=True)
     def _start_scan(self, *args):
@@ -374,7 +277,6 @@ class ChannelAnalysisPanel(QWidget):
         self._reset_ui()
         
         self.analysis_completed.emit(band)
-        self.scan_completed.emit()
         logger.info(f"Channel analysis completed for {band}: {len(channels)} channels")
     
     def _on_error(self, error_message: str):
@@ -398,21 +300,13 @@ class ChannelAnalysisPanel(QWidget):
             quality_item = QTableWidgetItem(f"{quality_score:.1f}")
             
             if quality_score >= 80:
-                bg_color = QColor(UIStyles.COLORS['success'])
-                bg_color.setAlpha(100)
-                quality_item.setBackground(bg_color)
+                quality_item.setBackground(Qt.green)
             elif quality_score >= 60:
-                bg_color = QColor(UIStyles.COLORS['warning'])
-                bg_color.setAlpha(100)
-                quality_item.setBackground(bg_color)
+                quality_item.setBackground(Qt.yellow)
             else:
-                bg_color = QColor(UIStyles.COLORS['error'])
-                bg_color.setAlpha(100)
-                quality_item.setBackground(bg_color)
+                quality_item.setBackground(Qt.red)
             
             self.channel_table.setItem(row, 5, quality_item)
-        
-        self._animation_helper.fade_in(self.channel_table, 300).start()
     
     def _reset_ui(self):
         self.scan_button.setEnabled(True)
@@ -433,12 +327,25 @@ class ChannelAnalysisPanel(QWidget):
         if not self._auto_refresh_enabled:
             return
         
+        # 只有当没有其他扫描任务正在运行时才执行自动刷新
         if not (self._worker and self._worker.isRunning()):
             logger.debug(f"Auto refreshing channel analysis for {self._current_band}")
             self._start_scan()
+    
+    scan_completed = pyqtSignal()
     
     def refresh(self):
         self._start_scan()
     
     def get_channels(self) -> list:
         return self._channels
+    
+    def _on_analysis_completed(self, channels: list, band: str):
+        self._channels = channels
+        self._update_chart(channels)
+        self._update_table(channels)
+        self._reset_ui()
+        
+        self.analysis_completed.emit(band)
+        self.scan_completed.emit()  # 发送扫描完成信号
+        logger.info(f"Channel analysis completed for {band}: {len(channels)} channels")
